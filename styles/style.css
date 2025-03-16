@@ -3,10 +3,9 @@
 /*
     CORES:
 
-            CINZA: rgba(0, 0, 0, 0.822);
-            LARANJA ESCURO: #d14403;
-            LARANJA DO L:  #ff5100e1;
-            LARANJA MEDIO: #ff5900cb;
+            azul: rgba(0, 0, 0, 0.822);
+            branco: #d14403;
+            amarelo:  #ff5100e1;
     
 */
 
@@ -25,14 +24,21 @@ body{
 
 .controleCabecalho{
     margin: 0 auto;
-    background-color:white;
+    background-color:rgb(99, 153, 253);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 10px;
+    
+    
+}
+.controleCabecalho:hover{
+    background-color:rgb(99, 153, 253);
+
     
 }
 .logo img{
-    background-color: white;
+    
     max-width: 100px;
 }
 .menu{
