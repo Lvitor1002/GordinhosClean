@@ -3,18 +3,169 @@
 
 /*                                    CABEÇALHO                                           */
 
-@media screen and(max-width:800px){
+@media screen and (max-width: 1025px){
+    header#imgFuCa {
+        
+        background-position: 80% 0%; /*100% na horizontal e 0% na vertical*/
+    }
+    .barraAmarela{
+        width: 74.6%;
+    }
     .botaoContato button{
-        position: relative;
+        left: 80px;
+    }
+
+}
+@media screen and (max-width: 1425px){
+    .barraAmarela{
+        width: 77%;
+    }
+    .botaoContato button{
+        left: 40px;
+        
+    }
+}
+@media screen and (max-width: 1225px){
+    .barraAmarela{
+        width: 77%;
+    }
+    .botaoContato button{
+        left: 70px;
+        
+    }
+    .menu ul li{
+        padding: 0 10px;
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width: 1110px){
+    .barraAmarela{
+        width: 76%;
+    }
+    .menu ul li{
+        font-size: 18px;
+    }
+    
+    
+}
+@media screen and (max-width: 1000px){
+    .barraAmarela{
+        width: 74%;
+    }
+    .botaoContato button{
+        left: 50px;
+        
+    }
+    .menu ul li{
+        font-size: 17px;
+    }
+    
+}
+@media screen and (max-width: 995px){
+    .barraAmarela{
+        width: 73%;
+        left: 190px;
+    }
+    .botaoContato button{
+        display: none;
+        
+    }
+    li#ctt{
+        display: block;
         cursor: pointer;
-        left: 10px;
-        text-align: center;
-        border: 0;
-        background-color: rgb(255, 0, 0);
+        background-color: rgb(0, 153, 255);
         color: white;
-        padding: 23px 10px;
         border-radius: 18px;
-        font-size: 21px;
+        font-size: 19px;
         font-weight: bold;
     }
+    .controleh1 h1{
+        font-size: 85px;
+    }
+
+    
+}
+@media screen and (max-width: 870px){ /* <--  MENU [|||] AQUI */
+    .barraAmarela{
+        width: 75%;
+        left: 130px;
+    }
+    
+    
+}
+@media screen and (max-width: 767px){
+    .barraAmarela{
+        width: 75%;
+    }
+    .logo img{
+        right: 40px;
+        
+    }
+   
+    
+}
+@media screen and (max-width: 670px){
+    .barraAmarela{
+        width: 78%;
+        left: 90px;
+    }
+    .controleh1 h1{
+        font-size: 78px;
+        transform: translatey(360%);
+    }
+    
+    
+}
+@media screen and (max-width: 600px){
+    
+    .controleh1 h1{
+        font-size: 73px;
+    }
+    
+    
+}
+@media screen and (max-width: 590px){
+    .barraAmarela{
+        width: 71%;
+        left: 90px;
+    }
+    .controleh1 h1{
+        font-size: 71px;
+    }
+    
+    
+}
+@media screen and (max-width: 550px){
+    .controleh1 h1{
+        font-size: 65px;
+        transform: translatey(375%);
+    }
+    
+    
+}
+@media screen and (max-width: 530px){
+    .barraAmarela{
+        width: 71%;
+    }
+    .controleh1 h1{
+        font-size: 60px;
+        transform: translatey(410%);
+    }
+    
+    
+}
+@media screen and (max-width: 500px){
+    header#imgFuCa {
+        background-position: 60% 0%; /*100% na horizontal e 0% na vertical*/
+    }
+    .barraAmarela{
+        width: 65%;
+    }
+    .controleh1 h1{
+        font-size: 50px;
+        transform: translatey(480%);
+    }
+
+    
 }

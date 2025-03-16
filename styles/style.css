@@ -100,6 +100,9 @@ header#imgFuCa {
     font-size: 21px;
     font-weight: bold;
 }
+li#ctt{
+    display: none;
+}
 .controleh1{
     display: flex;
     justify-content: center;
