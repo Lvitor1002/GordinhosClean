@@ -38,17 +38,13 @@ header#imgFuCa {
     background-position: 100% 0%; /*100% na horizontal e 0% na vertical*/
 }
 
-#barraAmarela{
-    background-image: url(../image/barraAmarela.png);
-    background-repeat: no-repeat;
-    background-size: cover; /* Faz a imagem cobrir toda a área */
-    background-position: center; /* Centraliza a imagem */
-    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+.barraAmarela{
     position: relative;
+    background-color: yellow;
     top: 92px;
-    left: 140px;
+    left: 200px;
     height: 80px;
-    width: 80%;
+    width: 77.6%;
     border-radius: 20px;
     z-index: 0;
 }
@@ -68,7 +64,7 @@ header#imgFuCa {
 .logo img{
     z-index: 1;
     position: relative;
-    right: 90px;
+    right: 20px;
     bottom: 4px;
     max-width: 120px;
     
@@ -94,7 +90,7 @@ header#imgFuCa {
 .botaoContato button{
     position: relative;
     cursor: pointer;
-    right: 10px;
+    left: 10px;
     text-align: center;
     border: 0;
     background-color: rgb(0, 153, 255);
