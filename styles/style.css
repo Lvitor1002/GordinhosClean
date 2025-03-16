@@ -24,19 +24,16 @@ body{
 
 .controleCabecalho{
     margin: 0 auto;
-    background-color:rgb(99, 153, 253);
+    background-color:#19c9ff;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 10px;
+    box-shadow: 1px 1px 10px black;
     
     
 }
-.controleCabecalho:hover{
-    background-color:rgb(99, 153, 253);
 
-    
-}
 .logo img{
     
     max-width: 100px;
