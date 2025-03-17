@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/celular.css">
     <link rel="shortcut icon" href="image/gordinhosLogo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="menu.js"></script>
 </head>
-<body>
+<body onresize="mudou_tamanho()">
     
     <!--                                    CABEÇALHO                                           -->
     <header class="imgFundoCabecalho" id="imgFuCa">
@@ -31,6 +33,9 @@
                     <li id="ctt">Contato</li>
                 </ul>
             </nav><!-- FIM | menu -->
+            
+            <i class="bi bi-list" onclick="clickMenu()"></i>
+            
 
             <div class="botaoContato">
                 <a href="#"><button>Contato</button></a>
