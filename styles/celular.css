@@ -16,6 +16,13 @@
     }
 
 }
+@media screen and (max-width: 1925px){
+    .menu ul li{
+        position: relative;
+        left: 90px;
+        
+    }
+}
 @media screen and (max-width: 1425px){
     .barraAmarela{
         width: 77%;
@@ -38,6 +45,13 @@
         font-size: 20px;
     }
     
+}
+@media screen and (max-width: 1320px){
+    .menu ul li{
+        position: relative;
+        left: 50px;
+        
+    }
 }
 @media screen and (max-width: 1110px){
     .barraAmarela{
@@ -151,7 +165,10 @@
     
 }
 @media screen and (max-width: 600px){
-    
+    header#imgFuCa {
+        background-position: 50% 0px; /*100% na horizontal e 0% na vertical*/
+        background-size: auto;
+    }
     .controleh1 h1{
         font-size: 73px;
     }
@@ -162,6 +179,10 @@
     
 }
 @media screen and (max-width: 590px){
+    header#imgFuCa {
+        background-position: 40% 0px; /*100% na horizontal e 0% na vertical*/
+        background-size: auto;
+    }
     .barraAmarela{
         width: 71%;
         left: 90px;
@@ -176,6 +197,10 @@
     
 }
 @media screen and (max-width: 550px){
+    header#imgFuCa {
+        background-position: 23% 0px; /*100% na horizontal e 0% na vertical*/
+        background-size: auto;
+    }
     .controleh1 h1{
         font-size: 65px;
         transform: translatey(375%);
@@ -187,6 +212,10 @@
     
 }
 @media screen and (max-width: 530px){
+    header#imgFuCa {
+        background-position: 20% 0px; /*100% na horizontal e 0% na vertical*/
+        background-size: auto;
+    }
     .barraAmarela{
         width: 71%;
     }
@@ -202,7 +231,8 @@
 }
 @media screen and (max-width: 500px){
     header#imgFuCa {
-        background-position: 60% 0%; /*100% na horizontal e 0% na vertical*/
+        background-position: 10% 0px; /*100% na horizontal e 0% na vertical*/
+        background-size: auto;
     }
     .barraAmarela{
         width: 65%;
@@ -214,12 +244,18 @@
     .bi {
         left: -30px;
     }
+    .teste h1{
+        
+        font-size: 50px;
+        
+    }
 
     
 }
 @media screen and (max-width: 500px){
     header#imgFuCa {
-        background-position: 60% 0%; /*100% na horizontal e 0% na vertical*/
+        background-position: 10% 0px; /*100% na horizontal e 0% na vertical*/
+        background-size: auto;
     }
     .barraAmarela{
         width: 65%;
@@ -229,7 +265,7 @@
         transform: translatey(480%);
     }
     .bi {
-        left: -55px;
+        left: -50px;
     }
 
     

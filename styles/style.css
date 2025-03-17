@@ -3,9 +3,9 @@
 /*
     CORES:
 
-            azul: rgba(0, 0, 0, 0.822);
-            branco: #d14403;
-            amarelo:  #ff5100e1;
+            yellow;
+            branco: white;
+            blue: rgb(0, 153, 255);
     
 */
 
@@ -82,6 +82,8 @@ header#imgFuCa {
     padding: 0 20px;
     display: inline;
     font-size: 21px;
+    position: relative;
+    
 }
 
 .botaoContato{
@@ -119,4 +121,27 @@ li#ctt{
     transform: translatey(300%);
 }
 
+/*                                   CONTEÚDO                                          */
 
+.controle{
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.teste{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teste h1{
+    height: 100vh;
+    text-align: center;
+    padding: 400px 400px;
+    color:  rgb(2, 120, 199);
+    border: 20px solid rgb(0, 153, 255);
+    border-radius: 20px 20px 0px 0;
+    font-size: 90px;
+}
