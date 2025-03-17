@@ -16,7 +16,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    width: 100vw;
     height: 100vh;
     overflow-x: hidden; /* Remove a rolagem lateral */
     background-color: white;
@@ -122,19 +121,29 @@ li#ctt{
 }
 
 /*                                   CONTEÚDO                                          */
-
+.servicos{
+    
+}
 .controle{
     margin: 0 auto;
+    
 }
 
 .teste{
-    margin-top: 200px;
+    margin: 20px 0;
+    height: 900px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    box-shadow: -20px -20px 119px 167px white;
+
+    
 }
 .teste h1{
+   
+
     text-align: center;
     padding: 10% 0;
     color:  rgb(2, 120, 199);
