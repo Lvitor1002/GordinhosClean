@@ -125,12 +125,10 @@ li#ctt{
 
 .controle{
     margin: 0 auto;
-    width: 100vw;
 }
 
 .teste{
     margin-top: 200px;
-    width: 100vw;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -138,7 +136,7 @@ li#ctt{
 }
 .teste h1{
     text-align: center;
-    padding: 10% 20%;
+    padding: 10% 0;
     color:  rgb(2, 120, 199);
     border: 20px solid rgb(0, 153, 255);
     border-radius: 20px 20px 0px 0;
