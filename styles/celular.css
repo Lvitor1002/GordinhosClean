@@ -270,11 +270,23 @@
 
     
 }
+@media screen and (max-width: 450px){
+    
+    .controleh1 h1{
+        font-size: 36px;
+        transform: translatey(480%);
+
+    }
+   
+
+    
+}
 
 /*                                   CONTEÚDO                                          */
-@media screen and (max-width: 1410px){
+@media screen and (max-width: 1710px){
     .controle{
         gap: 100px;
+        flex-wrap: wrap;
         
     }
     .linha{
@@ -282,31 +294,28 @@
         
     }
 }
-@media screen and (max-width: 1170px){
-    .controle{
-        flex-wrap: wrap;
-        
-    }
-    
-}
-@media screen and (max-width: 770px){
+
+
+
+@media screen and (max-width: 729px){
+
     .controle .primeiroCampoTxt h1{
-        font-size:17px;
+        font-size:21px;
         display: inline-block;
         white-space: wrap;
-        width: 290px;
+        width: 640px;
         line-height: 26px;
-        position: relative;
+ 
         top: 20px;
+
     
     }
      .controle .primeiroCampoTxt h3{
-        font-size:14px;
         display: inline-block;
         white-space: wrap;
-        width: 260px;
-        position: relative;
-        top: 45px;
+        width: 640px;
+
+        top: 65px;
         line-height: 26px;
         color: rgba(0, 0, 0, 0.644);
     }
@@ -314,18 +323,83 @@
     
     .controle .primeiroCampoTxt #pTexto{
         line-height: 38px;
-        width: 240px;
-        top: 40px;
-        font-size: 16px;
+        width: 540px;
+        top: 90px;
+        font-size: 20px;
+        line-height: 59px;
     }
     
     .controle img{
-        width: 250px;
-        height: 450px;
+        width: 650px;
+        height: 550px;
         border-radius: 60px;
         margin-top: 20px;
     }
  
     
+}
+@media screen and (max-width: 660px){
+    .controle .primeiroCampoTxt h1{
+        font-size:20px;
+        width: 590px;
+        top: 60px;
+
+    
+    }
+     .controle .primeiroCampoTxt h3{
+        font-size:17px;
+        width: 590px;
+        top: 95px;
+
+    }
+    
+    
+    .controle .primeiroCampoTxt #pTexto{
+        line-height: 55px;
+        width: 450px;
+        top: 100px;
+        font-size: 16px;
+    }
+    .controle img{
+        top: 130px;
+        
+    }
+    
+ 
+    
+}
+@media screen and (max-width: 590px){
+    .controle .primeiroCampoTxt h1{
+        width: 410px;
+    }
+     .controle .primeiroCampoTxt h3{
+        width: 405px;
+    }
+    
+    .controle .primeiroCampoTxt #pTexto{
+        width: 380px;
+    }
+    .controle img{
+        width: 340px;
+        
+    }
+     
+}
+@media screen and (max-width: 490px){
+    .controle .primeiroCampoTxt h1{
+        width: 310px;
+    }
+     .controle .primeiroCampoTxt h3{
+        width: 255px;
+    }
+    
+    .controle .primeiroCampoTxt #pTexto{
+        width: 240px;
+    }
+    .controle img{
+        width: 240px;
+        
+    }
+     
 }
 
