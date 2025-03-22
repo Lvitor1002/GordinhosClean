@@ -245,6 +245,7 @@ li#ctt{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 80px;
     position: relative;
+    text-align: center;
     bottom: 180px;
     color: white;
     text-shadow: 0px 0px 9px -1px black;
@@ -256,7 +257,7 @@ li#ctt{
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 200px;
+    gap: 100px;
 }
 
 .sobre .controleSobre .primeiroCampoSobre{

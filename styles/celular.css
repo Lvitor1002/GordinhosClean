@@ -362,6 +362,10 @@
         top: 95px;
 
     }
+    .sobre h1{
+        font-size: 50px;
+        
+    }
     
     
     .controle .primeiroCampoTxt #pTexto{
@@ -397,6 +401,10 @@
     .sobre{
         margin-top: 790px;
     
+    }
+    .sobre h1{
+        font-size: 40px;
+        
     }
      
 }
