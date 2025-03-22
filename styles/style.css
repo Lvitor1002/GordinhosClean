@@ -257,7 +257,6 @@ li#ctt{
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 100px;
 }
 
 .sobre .controleSobre .primeiroCampoSobre{
