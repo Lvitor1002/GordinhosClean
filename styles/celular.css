@@ -365,7 +365,7 @@
     
     
     .controle .primeiroCampoTxt #pTexto{
-        line-height: 55px;
+        line-height:45px;
         width: 450px;
         top: 100px;
         font-size: 16px;
@@ -391,7 +391,7 @@
     }
     .controle img{
         width: 340px;
-        left: 5px;
+        left: 2px;
         
     }
     .sobre{
