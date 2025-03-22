@@ -293,6 +293,16 @@
         display: none;
         
     }
+    
+    
+}
+@media screen and (max-width: 1140px){
+    .sobre{
+        margin-top: 600px;
+    
+    }
+    
+    
 }
 
 
@@ -370,19 +380,23 @@
 }
 @media screen and (max-width: 590px){
     .controle .primeiroCampoTxt h1{
-        width: 400px;
+        width: 390px;
     }
      .controle .primeiroCampoTxt h3{
-        width: 390px;
+        width: 360px;
     }
     
     .controle .primeiroCampoTxt #pTexto{
-        width: 350px;
+        width: 340px;
     }
     .controle img{
         width: 340px;
         left: 5px;
         
+    }
+    .sobre{
+        margin-top: 790px;
+    
     }
      
 }

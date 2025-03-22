@@ -20,6 +20,11 @@ body {
     overflow-x: hidden; /* Remove a rolagem lateral */
     background-color: white;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
@@ -129,6 +134,7 @@ li#ctt{
 
     
 }
+
 .controle{
     display: flex;
     justify-content: center;
@@ -218,3 +224,17 @@ li#ctt{
     }
 }
 
+
+/*                                   CONTEÚDO > Sobre                                    */
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(0, 153, 255);
+    width: 100vw;
+    height: 100vh;
+    border-radius: 80px;
+    
+
+}
