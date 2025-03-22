@@ -385,7 +385,7 @@
     }
      
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 290px){
     .controle .primeiroCampoTxt h1{
         width: 310px;
     }
