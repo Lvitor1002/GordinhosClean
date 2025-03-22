@@ -370,17 +370,18 @@
 }
 @media screen and (max-width: 590px){
     .controle .primeiroCampoTxt h1{
-        width: 410px;
+        width: 400px;
     }
      .controle .primeiroCampoTxt h3{
-        width: 405px;
+        width: 390px;
     }
     
     .controle .primeiroCampoTxt #pTexto{
-        width: 380px;
+        width: 350px;
     }
     .controle img{
         width: 340px;
+        left: 5px;
         
     }
      
