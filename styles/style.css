@@ -1,13 +1,6 @@
 @charset "UTF-8";
 
-/*
-    CORES:
 
-            yellow;
-            branco: white;
-            blue: rgb(0, 153, 255);
-    
-*/
 
 *{
     margin: 0px;
@@ -204,7 +197,7 @@ li#ctt{
     
     width: 350px;
     height: 600px;
-    border-radius: 60px;
+    border-radius: 20px;
     margin-top: 75px;
     position: relative;
     animation:  flutuar 
@@ -241,30 +234,31 @@ li#ctt{
     border-radius: 40px;
     
 }
-.sobre h1{
+.primeiroCampoSobre h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 80px;
     position: relative;
     text-align: center;
-    bottom: 180px;
+    bottom: 120px;
     color: white;
     text-shadow: 0px 0px 9px -1px black;
     
 }
-.sobre .controleSobre{
+.controleSobre{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    
 }
 
-.sobre .controleSobre .primeiroCampoSobre{
-    width: 400px;
-    padding: 100px 0;
-}
-
-.sobre .controleSobre .segundoCampoSobre{
-    width: 400px;
+.controleSobre .primeiroCampoSobre{
+    position: relative;
+    width: 450px;
+    right: 350px;
+    
     background-color: rgb(217, 255, 0);
 }
+
+

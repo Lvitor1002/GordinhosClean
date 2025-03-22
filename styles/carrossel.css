@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.controleCarrossel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.segundoCampoSobre{
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    padding: 0!important;
+    overflow: hidden;
+}
+.slider{
+    background-color: rgb(255, 115, 0);
+    height: auto;
+    width: 400%;
+    display: flex;
+    
+}
+.slider input, .imgCelular,.naveAuto{
+    display: none;
+}
+
+
+.sliderCampo{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.sliderCampo img{
+    width: 100%;
+}
+
+.naveAuto{
+    position: absolute;
+    width: 1%;
+    margin-top: 15%;
+    justify-content: center;
+}
+.naveManual{
+    background-color: aqua;
+
+}
+.manualBtn,.naveAuto div{
+    border:  1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+}
+.manualBtn:not(:last-child),.naveAuto div:not(:last-child){
+    margin-right: 10px;
+}
+
+.manualBtn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .naveAuto .autoBtn1{
+    background-color: white;
+}
+
+#radio2:checked ~ .naveAuto .autoBtn2{
+    background-color: white;
+}
+
+#radio3:checked ~ .naveAuto .autoBtn3{
+    background-color: white;
+}
+
+#radio4:checked ~ .naveAuto .autoBtn4{
+    background-color: white;
+}
+
+#radio5:checked ~ .naveAuto .autoBtn5{
+    background-color: white;
+}
+
+#radio6:checked ~ .naveAuto .autoBtn6{
+    background-color: white;
+}
+
+#radio7:checked ~ .naveAuto .autoBtn7{
+    background-color: white;
+}
+
+#radio8:checked ~ .naveAuto .autoBtn8{
+    background-color: white;
+}
+
+
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+#radio4:checked ~ .primeiro{
+    margin-left: -75%;
+}
+#radio5:checked ~ .primeiro{
+    margin-left: -100%;
+}
+#radio6:checked ~ .primeiro{
+    margin-left: -125%;
+}
+#radio7:checked ~ .primeiro{
+    margin-left: -150%;
+}
+#radio8:checked ~ .primeiro{
+    margin-left: -175%;
+}
+
+@media screen and (max-width: 590px){
+    .imgCelular{
+        display: block;
+    }
+    .imgDesktop{
+        display: none;
+    }
+    
+     
+}

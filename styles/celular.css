@@ -295,6 +295,7 @@
     }
     
     
+    
 }
 @media screen and (max-width: 1140px){
     .sobre{
@@ -407,17 +408,14 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .sobre h1{
+    .primeiroCampoSobre h1{
         font-size: 40px;
-        bottom: 40px;
+        bottom: 30px;
         
     }
-    .sobre .controleSobre .primeiroCampoSobre{
-        width: 100px;
 
-    }
     
-    .sobre .controleSobre .segundoCampoSobre{
+    .sobre .controleSobre .primeiroCampoSobre{
         width: 400px;
 
     }
