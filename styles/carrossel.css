@@ -44,7 +44,7 @@
     
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 110, 255, 0.11);
+    
     border-radius: 30px;
    
 }
@@ -239,13 +239,13 @@
 @media screen and (max-width: 535px){
     
     .naveManual, .naveAuto{
-        margin-top: 105%;
+        margin-top: 90%;
     }
 }
 @media screen and (max-width: 500px){
     
     .naveManual, .naveAuto{
-        margin-top: 80%;
+        margin-top: 75%;
     }
     .sliderCampo img{
         width: 400px;
