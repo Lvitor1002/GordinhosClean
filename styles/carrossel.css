@@ -243,8 +243,7 @@
 @media screen and (max-width: 500px){
     
     .naveManual, .naveAuto{
-        margin-top: 99%;
-        transform: scale(.5);
+        margin-top: 115%;
     }
     .sliderCampo img{
         width: 400px;
