@@ -225,10 +225,10 @@
     
     .naveManual, .naveAuto{
         margin-top: 99%;
-        transform: scale(.6);
+        transform: scale(.7);
     }
     .sliderCampo img{
-        width: 800px;
+        width: 600px;
         height: 600px;
 
         
@@ -246,7 +246,7 @@
         margin-top: 80%;
     }
     .sliderCampo img{
-        width: 400px;
+        width: 500px;
         height: 400px;
     }
 }
