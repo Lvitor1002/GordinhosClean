@@ -1,105 +1,84 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-.controleCarrossel{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-}
 .segundoCampoSobre{
     margin: 0 auto;
-    width: 400px;
     height: auto;
+    width: 80%;
     padding: 0!important;
     overflow: hidden;
+    height: 90%;
+    border-radius: 22px;
+    
+
 }
-.slider{
-    background-color: rgb(255, 115, 0);
+.slider-content{
     height: auto;
     width: 400%;
     display: flex;
     
+    
 }
-.slider input, .imgCelular,.naveAuto{
+.slider-content input, .imgCelular{
     display: none;
 }
-
-
 .sliderCampo{
     width: 25%;
     height: auto;
     position: relative;
     text-align: center;
     transition: 1s;
+   
 }
 
 .sliderCampo img{
-    width: 100%;
+    width: 1800px;
+    height: 700px;
+    
+
 }
 
-.naveAuto{
+.naveManual, .naveAuto{
     position: absolute;
-    width: 1%;
-    margin-top: 15%;
+    width: 80%;
+    margin-top: 39%;
+    
+    display: flex;
     justify-content: center;
+   
 }
-.naveManual{
-    background-color: aqua;
-
-}
-.manualBtn,.naveAuto div{
-    border:  1px solid rgb(255, 255, 255);
-    padding: 10px 20px;
-    border-radius: 100%;
+.naveManual .manualBtn, .naveAuto div{
+    border:  .5px solid rgba(255, 255, 255, 0.192);
+    padding: 10px;
+    border-radius: 50%;
     cursor: pointer;
-    position: relative;
     transition: all 0.5s;
+    
+    
 }
-.manualBtn:not(:last-child),.naveAuto div:not(:last-child){
+.naveManual .manualBtn:not(:last-child), .naveAuto div:not(:last-child){
     margin-right: 10px;
 }
 
-.manualBtn:hover{
+.naveManual .manualBtn:hover{
     background-color: white;
 }
 
-#radio1:checked ~ .naveAuto .autoBtn1{
+
+#radio1:checked ~ .naveAuto .autoBtn1,
+#radio2:checked ~ .naveAuto .autoBtn2,
+#radio3:checked ~ .naveAuto .autoBtn3,
+#radio4:checked ~ .naveAuto .autoBtn4,
+#radio5:checked ~ .naveAuto .autoBtn5,
+#radio6:checked ~ .naveAuto .autoBtn6,
+#radio7:checked ~ .naveAuto .autoBtn7,
+#radio8:checked ~ .naveAuto .autoBtn8,
+#radio9:checked ~ .naveAuto .autoBtn9,
+#radio10:checked ~ .naveAuto .autoBtn10,
+#radio11:checked ~ .naveAuto .autoBtn11,
+#radio12:checked ~ .naveAuto .autoBtn12
+{
     background-color: white;
 }
-
-#radio2:checked ~ .naveAuto .autoBtn2{
-    background-color: white;
-}
-
-#radio3:checked ~ .naveAuto .autoBtn3{
-    background-color: white;
-}
-
-#radio4:checked ~ .naveAuto .autoBtn4{
-    background-color: white;
-}
-
-#radio5:checked ~ .naveAuto .autoBtn5{
-    background-color: white;
-}
-
-#radio6:checked ~ .naveAuto .autoBtn6{
-    background-color: white;
-}
-
-#radio7:checked ~ .naveAuto .autoBtn7{
-    background-color: white;
-}
-
-#radio8:checked ~ .naveAuto .autoBtn8{
-    background-color: white;
-}
-
 
 
 #radio1:checked ~ .primeiro{
@@ -126,14 +105,161 @@
 #radio8:checked ~ .primeiro{
     margin-left: -175%;
 }
+#radio9:checked ~ .primeiro{
+    margin-left: -200%;
+}
+#radio10:checked ~ .primeiro{
+    margin-left: -225%;
+}
+#radio11:checked ~ .primeiro{
+    margin-left: -250%;
+}
+#radio12:checked ~ .primeiro{
+    margin-left: -275%;
+}
 
-@media screen and (max-width: 590px){
+
+@media screen and (max-width: 1550px){
+    .naveManual, .naveAuto{
+        margin-top: 42%;
+       
+    }
+    .sliderCampo img{
+        width: 1400px;
+        
+    }
+     
+}
+@media screen and (max-width: 1400px){
+    
+    .naveManual, .naveAuto{
+        margin-top: 49%;
+       
+    }
+     
+}
+@media screen and (max-width: 1140px){
+    
+    .naveManual, .naveAuto{
+        margin-top: 56%;
+       
+    }
+    .naveManual .manualBtn, .naveAuto div{
+        background-color: rgba(0, 153, 255, 0.473);
+        padding: 15px;
+    }
+    .sliderCampo img{
+        width: 1000px;
+        
+    }
+     
+}
+@media screen and (max-width: 1020px){
+
+    .naveManual, .naveAuto{
+        margin-top: 65%;
+
+    }
+    .sliderCampo img{
+        width: 900px;
+        
+    }
+     
+}
+@media screen and (max-width: 960px){
+
+    .naveManual, .naveAuto{
+        margin-top: 68%;
+       
+    }
+    
+     
+}
+@media screen and (max-width: 820px){
+
+    .naveManual, .naveAuto{
+        margin-top: 83%;
+       
+    }
+    .sliderCampo img{
+        width: 700px;
+        
+    }
+    
+     
+}
+@media screen and (max-width: 710px){
+
+    .naveManual, .naveAuto{
+        margin-top: 95%;
+       
+    }
+    .sliderCampo img{
+        width: 650px;
+        
+    
+    }
+    
+     
+}
+@media screen and (max-width: 660px){
     .imgCelular{
         display: block;
     }
     .imgDesktop{
         display: none;
     }
-    
+
+    .naveManual, .naveAuto{
+        margin-top: 102%;
+        padding: 0px;
+        transform: scale(.7);
+    }
+    .sliderCampo img{
+        width: 600px;
+        
+    }
      
+}
+@media screen and (max-width: 590px){
+    
+    .naveManual, .naveAuto{
+        margin-top: 99%;
+        transform: scale(.6);
+    }
+    .sliderCampo img{
+        width: 800px;
+        height: 600px;
+
+        
+    }
+}
+@media screen and (max-width: 535px){
+    
+    .naveManual, .naveAuto{
+        margin-top: 110%;
+    }
+}
+@media screen and (max-width: 500px){
+    
+    .naveManual, .naveAuto{
+        margin-top: 99%;
+        transform: scale(.5);
+    }
+    .sliderCampo img{
+        width: 400px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 450px){
+    
+    .naveManual, .naveAuto{
+        margin-top: 155%;
+        transform: scale(.4);
+    }
+    .sliderCampo img{
+        width: 300px;
+        
+        
+    }
 }

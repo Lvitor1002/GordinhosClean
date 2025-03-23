@@ -15,3 +15,7 @@ Blog: Artigos com dicas de manutenção, cuidados com estofados e novidades do s
 Contato: Formulário ou informações para que os clientes possam entrar em contato facilmente.
 
 FAQ: Perguntas frequentes que esclarecem dúvidas comuns dos clientes.
+
+
+desktop: 1800px largura 600px altura
+celular: 1040px largura 600px altura

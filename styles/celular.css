@@ -96,6 +96,8 @@
     }
     .controleh1 h1{
         font-size: 85px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     }
 
     
@@ -289,19 +291,20 @@
         flex-wrap: wrap;
         
     }
+    
     .linha{
         display: none;
         
     }
     
     
-    
 }
 @media screen and (max-width: 1140px){
     .sobre{
-        margin-top: 600px;
-    
+        margin-top: 50px;
+        
     }
+    
     
     
 }
@@ -374,10 +377,19 @@
         width: 450px;
         top: 100px;
         font-size: 16px;
+        
+    
     }
     .controle img{
         top: 130px;
         
+    }
+    .primeiroCampoSobre{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .controleSobre .primeiroCampoSobre #pTextoSobre{
+        width: 100%;
     }
     
  
@@ -399,31 +411,31 @@
         left: 2px;
         
     }
-    .sobre{
-        margin-top: 790px;
-    
-    }
+  
     .sobre .controleSobre{
 
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .primeiroCampoSobre h1{
+    .controleSobre h1{
         font-size: 40px;
         bottom: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        flex-wrap: nowrap;
         
     }
 
     
     .sobre .controleSobre .primeiroCampoSobre{
         width: 400px;
+       
 
     }
     
      
 }
 @media screen and (max-width: 290px){
-    .controle .primeiroCampoTxt h1{
+    .controle .controleSobre h1{
         width: 310px;
     }
      .controle .primeiroCampoTxt h3{

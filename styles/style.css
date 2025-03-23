@@ -107,16 +107,18 @@ li#ctt{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 
 }
 .controleh1 h1{
-    font-size: 90px;
+    font-size: 120px;
     color: white;
+    
     font-weight: bolder;
     position: absolute;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.534);
-    transform: translatey(300%);
+    transform: translatey(200%);
 }
 
 /*                                   CONTEÚDO                                          */
@@ -125,7 +127,7 @@ li#ctt{
     justify-content: center;
     align-items: center;
     box-shadow: -20px -20px 119px 167px white;
-
+    
     
 }
 
@@ -133,8 +135,8 @@ li#ctt{
     display: flex;
     justify-content: center;
     width: 80%;
-    height: 100vh;
-    
+    height: 100%;
+    margin-bottom: 120px;
     
 }
 
@@ -175,10 +177,16 @@ li#ctt{
     text-indent: 20px;
     text-align: justify;
     width: 600px;
+    color: rgba(0, 0, 0, 0.575);
 
     position: relative;
     top: 40px;
+    transition: all 2s;
     
+    
+}
+.controle .primeiroCampoTxt #pTexto:hover{
+    color: rgb(0, 0, 0);
 }
 
 .linha{
@@ -198,7 +206,7 @@ li#ctt{
     width: 350px;
     height: 600px;
     border-radius: 20px;
-    margin-top: 75px;
+    
     position: relative;
     animation:  flutuar 
                 2s 
@@ -216,49 +224,94 @@ li#ctt{
     0%{
         top: 0;
     }100%{
-        top: 65px;
+        top: 45px;
     }
 }
 
 
 /*                                   CONTEÚDO > Sobre                                    */
 
-.sobre{
+
+.sobreNos{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color:rgb(0, 153, 255);
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     border-radius: 40px;
     
+}   
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 30%;
+    
+    
+    
 }
-.primeiroCampoSobre h1{
+.controleSobre h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     position: relative;
     text-align: center;
-    bottom: 120px;
+    justify-content: center;
     color: white;
-    text-shadow: 0px 0px 9px -1px black;
     
+    
+}
+.primeiroCampoSobre{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 95%;
+    position: relative;
+    gap: 50px;
+}
+
+.controleSobre .primeiroCampoSobre #pTextoSobre{
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.603);
+    border: .5px solid rgba(255, 255, 255, 0.116);
+    box-shadow: 0px 42px 49px -55px rgb(255, 255, 255);
+    transition: all 2s;
+}
+.controleSobre .primeiroCampoSobre #pTextoSobre:hover{
+    color: black;
 }
 .controleSobre{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     
-}
-
-.controleSobre .primeiroCampoSobre{
-    position: relative;
-    width: 450px;
-    right: 350px;
     
-    background-color: rgb(217, 255, 0);
 }
 
+/*                                   Depoimentos                                    */
 
+.Depoimentos{
+    background-color:yellow;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
