@@ -44,6 +44,8 @@
     
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 110, 255, 0.11);
+    border-radius: 30px;
    
 }
 .naveManual .manualBtn, .naveAuto div{
@@ -52,6 +54,7 @@
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.5s;
+    
     
     
 }

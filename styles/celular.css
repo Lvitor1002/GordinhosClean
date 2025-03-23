@@ -428,6 +428,8 @@
     
     .sobre .controleSobre .primeiroCampoSobre{
         width: 400px;
+        padding: 0px 10px;
+        
        
 
     }
@@ -438,7 +440,7 @@
     
      
 }
-@media screen and (max-width: 290px){
+@media screen and (max-width: 390px){
     .controle .controleSobre h1{
         width: 310px;
     }
