@@ -216,6 +216,7 @@
     }
     .sliderCampo img{
         width: 600px;
+        
     }
      
 }
@@ -243,7 +244,10 @@
     .naveManual, .naveAuto{
         margin-top: 80%;
     }
-    
+    .sliderCampo img{
+        width: 400px;
+        height: 400px;
+    }
 }
 @media screen and (max-width: 450px){
     
