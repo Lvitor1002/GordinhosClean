@@ -145,7 +145,6 @@
        
     }
     .naveManual .manualBtn, .naveAuto div{
-        background-color: rgba(0, 153, 255, 0.473);
         padding: 15px;
     }
     .sliderCampo img{
@@ -217,7 +216,6 @@
     }
     .sliderCampo img{
         width: 600px;
-        
     }
      
 }
@@ -245,10 +243,7 @@
     .naveManual, .naveAuto{
         margin-top: 80%;
     }
-    .sliderCampo img{
-        width: 500px;
-        height: 400px;
-    }
+    
 }
 @media screen and (max-width: 450px){
     
