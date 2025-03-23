@@ -237,13 +237,13 @@
 @media screen and (max-width: 535px){
     
     .naveManual, .naveAuto{
-        margin-top: 110%;
+        margin-top: 105%;
     }
 }
 @media screen and (max-width: 500px){
     
     .naveManual, .naveAuto{
-        margin-top: 115%;
+        margin-top: 100%;
     }
     .sliderCampo img{
         width: 400px;
@@ -253,7 +253,7 @@
 @media screen and (max-width: 450px){
     
     .naveManual, .naveAuto{
-        margin-top: 155%;
+        margin-top: 110%;
         transform: scale(.4);
     }
     .sliderCampo img{
