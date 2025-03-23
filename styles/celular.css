@@ -432,7 +432,7 @@
 
     }
     .controleSobre .primeiroCampoSobre #pTextoSobre{
-        padding: 5px;
+        width: 49%;
         background-color: rgb(10, 95, 95);
     }
     
