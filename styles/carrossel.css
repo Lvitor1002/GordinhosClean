@@ -243,22 +243,17 @@
 @media screen and (max-width: 500px){
     
     .naveManual, .naveAuto{
-        margin-top: 100%;
+        margin-top: 80%;
     }
     .sliderCampo img{
         width: 400px;
-        height: 500px;
+        height: 400px;
     }
 }
 @media screen and (max-width: 450px){
     
     .naveManual, .naveAuto{
-        margin-top: 110%;
-        transform: scale(.4);
+        margin-top: 90%;
     }
-    .sliderCampo img{
-        width: 300px;
-        
-        
-    }
+  
 }
