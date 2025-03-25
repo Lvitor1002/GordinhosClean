@@ -292,10 +292,7 @@
         
     }
     
-    .linha{
-        display: none;
-        
-    }
+
     
     
 }
@@ -308,20 +305,42 @@
     
     
 }
+@media screen and (max-width: 845px){
+    
+    .linha{
+        position: relative;
+        top: 78px;
+        color: rgba(4, 155, 255, 0.089);
+        font-size: 40px;
+    }
+    .controle .primeiroCampoTxt h1{
+        font-size: 23px;
+ 
+    }
+    .controle .primeiroCampoTxt h3{
+
+        font-size: 15px;
+
+    }
+    .controle .primeiroCampoTxt #h3Gordin{
+        font-size: 20px;
+    }
+    
+}
 
 
 
 @media screen and (max-width: 729px){
-
+    .texto{
+        gap: 0px;
+    }
     .controle .primeiroCampoTxt h1{
         font-size:21px;
         display: inline-block;
         white-space: wrap;
         width: 640px;
         line-height: 26px;
- 
-        top: 20px;
-
+        top: 50px;
     
     }
      .controle .primeiroCampoTxt h3{
@@ -349,6 +368,9 @@
         border-radius: 60px;
         margin-top: 20px;
     }
+    .linha{
+        font-size: 30px;
+    }
  
     
 }
@@ -356,14 +378,12 @@
     .controle .primeiroCampoTxt h1{
         font-size:20px;
         width: 590px;
-        top: 60px;
-
     
     }
      .controle .primeiroCampoTxt h3{
         font-size:17px;
         width: 590px;
-        top: 95px;
+        top: 60px;
 
     }
     .sobre h1{
@@ -399,8 +419,28 @@
     .controle .primeiroCampoTxt h1{
         width: 390px;
     }
+    .texto{
+        top: 30px;
+        
+    }
+    .texto h1{
+        padding: 12px;
+
+    }
+    .linha{
+        color: rgba(4, 155, 255, 0.527);
+        top: 98px;
+    }
      .controle .primeiroCampoTxt h3{
         width: 360px;
+        font-size: 15px;
+    }
+    .controle .primeiroCampoTxt #h3Gordin{
+        font-weight: 0;
+        font-size: 36px;
+    }
+    .linha{
+        font-size: 20px;
     }
     
     .controle .primeiroCampoTxt #pTexto{

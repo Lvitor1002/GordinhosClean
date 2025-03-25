@@ -134,12 +134,11 @@ li#ctt{
 .controle{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 80%;
     height: 100%;
     margin-bottom: 120px;
-    
-
-    
+    gap:100px ;
 }
 
 .controle .primeiroCampoTxt{
@@ -148,18 +147,47 @@ li#ctt{
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 50%;
     
     
 }
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    bottom: 50px;
+    
+}
+.texto h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 136, 226);
+    padding: 30px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    
+}
+.texto h3{
+    background-color: rgba(0, 153, 255, 0.158);
+    padding: 0px 7px;
+    color: white;
+    border-radius: 0 0 7px 7px;
+}
+
+.linha{
+    position: relative;
+    top: 78px;
+    color: rgba(4, 155, 255, 0.089);
+    font-size: 50px;
+}
 .controle .primeiroCampoTxt h1{
     text-align: center;
-    font-size: 20px;
+    font-size: 28px;
     white-space: nowrap;
-    color: rgba(0, 0, 0, 0.301);
 
     position: relative;
-    bottom: 25px;
 
 }
 .controle .primeiroCampoTxt h3{
@@ -167,22 +195,22 @@ li#ctt{
     font-size: 16px;
     white-space: nowrap;
     color: rgba(0, 0, 0, 0.322);
-    
     position: relative;
-    margin-bottom: 20px;
 }
 .controle .primeiroCampoTxt #h3Gordin{
     font-weight: bolder;
     color:rgb(0, 153, 255);
-    font-size: 22px;
+    font-size: 30px;
+    transition: all 1s;
 }
+
 .controle .primeiroCampoTxt #pTexto{
     font-size: 19px;
-    line-height: 60px;
+    line-height: 30px;
     text-indent: 20px;
     text-align: justify;
-    width: 600px;
-    color: rgba(0, 0, 0, 0.404);
+    width: 80%;
+    color: rgba(0, 0, 0, 0.336);
     box-shadow: 0px 0px 128px -58px rgba(0, 153, 255, 0.158);
     border-radius: 50px;
     padding: 10px;
@@ -197,18 +225,6 @@ li#ctt{
     color: rgb(0, 0, 0);
 }
 
-.linha{
-    height: 1px;
-    font-size: 22px;
-    position: relative;
-    
-    left: 200px;
-    top: 200px;
-    
-    transform: rotate(90deg);   /* Gira a linha em 90 graus para deixá-la vertical */
-    transform-origin: left;     /* Define o ponto de origem da rotação */
-    
-}
 .controle img{
     
     width: 350px;
