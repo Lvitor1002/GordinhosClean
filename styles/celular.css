@@ -440,6 +440,7 @@
      .controle .primeiroCampoTxt h3{
         width: 360px;
         font-size: 15px;
+        color: rgba(0, 0, 0, 0.274);
     }
     .controle .primeiroCampoTxt #h3Gordin{
         font-weight: 0;
