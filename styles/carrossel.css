@@ -247,7 +247,7 @@
     }
 
     .naveManual, .naveAuto{
-        margin-top: 130%;
+        margin-top: 120%;
         padding: 0px;
         transform: scale(.7);
     }
