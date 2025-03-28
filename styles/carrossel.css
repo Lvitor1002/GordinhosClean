@@ -260,7 +260,9 @@
      
 }
 @media screen and (max-width: 590px){
-    
+    body{
+        overflow-x: hidden; /* Remove a rolagem lateral */
+    }
     .naveManual, .naveAuto{
         transform: scale(.7);
     }

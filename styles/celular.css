@@ -416,6 +416,9 @@
     
 }
 @media screen and (max-width: 590px){
+    body{
+        overflow-x: hidden; /* Remove a rolagem lateral */
+    }
     .controle .primeiroCampoTxt h1{
         width: 390px;
     }
