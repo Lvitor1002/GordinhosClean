@@ -290,6 +290,15 @@
         gap: 100px;
         flex-wrap: wrap;
         
+        
+    }
+    .primeiroCampoSobre {
+        
+        gap: 0px;
+    }
+    .primeiroCampoSobre i{
+        padding: 0px;
+        margin: 0px;
     }
     
 
@@ -300,6 +309,19 @@
     .sobre{
         margin-top: 50px;
         
+    }
+    .primeiroCampoSobre {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .controleSobre .primeiroCampoSobre #pTextoSobre{
+        width: 100%;
+        
+    }
+    .primeiroCampoSobre i{
+        font-size: 70px;
     }
     
     
@@ -325,6 +347,8 @@
     .controle .primeiroCampoTxt #h3Gordin{
         font-size: 20px;
     }
+    
+    
     
 }
 
@@ -360,6 +384,13 @@
         top: 90px;
         font-size: 20px;
         line-height: 59px;
+    }
+    
+    .primeiroCampoSobre i{
+        position: relative;
+        left: -10px;
+
+      
     }
     
     .controle img{
@@ -404,13 +435,7 @@
         top: 130px;
         
     }
-    .primeiroCampoSobre{
-        flex-direction: column;
-        gap: 0px;
-    }
-    .controleSobre .primeiroCampoSobre #pTextoSobre{
-        width: 100%;
-    }
+
     
  
     

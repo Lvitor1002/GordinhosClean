@@ -159,6 +159,11 @@
     .naveManual, .naveAuto{
         margin-top: 48%;
        
+        width: 80%;
+       
+    }
+    .segundoCampoSobre{
+        width: 80%;
     }
     .sliderCampo img{
         width: 1200px;
@@ -171,6 +176,11 @@
     .naveManual, .naveAuto{
         margin-top: 53%;
        
+        width: 80%;
+       
+    }
+    .segundoCampoSobre{
+        width: 80%;
     }
      
 }
@@ -179,6 +189,11 @@
     .naveManual, .naveAuto{
         margin-top: 57%;
        
+        width: 80%;
+       
+    }
+    .segundoCampoSobre{
+        width: 80%;
     }
      
 }
@@ -187,6 +202,11 @@
     .naveManual, .naveAuto{
         margin-top: 62%;
        
+        width: 80%;
+       
+    }
+    .segundoCampoSobre{
+        width: 80%;
     }
      
 }
@@ -195,10 +215,16 @@
     .naveManual, .naveAuto{
         margin-top: 64%;
        
+        width: 80%;
+       
+    }
+    .segundoCampoSobre{
+        width: 80%;
     }
     .naveManual .manualBtn, .naveAuto div{
         padding: 15px;
     }
+
     
      
 }
@@ -207,6 +233,11 @@
     .naveManual, .naveAuto{
         margin-top: 73%;
 
+        width: 80%;
+       
+    }
+    .segundoCampoSobre{
+        width: 80%;
     }
     
      
@@ -215,7 +246,11 @@
 
     .naveManual, .naveAuto{
         margin-top: 77%;
+        width: 80%;
        
+    }
+    .segundoCampoSobre{
+        width: 80%;
     }
     
      
@@ -224,17 +259,25 @@
 
     .naveManual, .naveAuto{
         margin-top: 85%;
+        width: 80%;
        
     }
-    
+    .segundoCampoSobre{
+        width: 80%;
+    }
      
 }
 @media screen and (max-width: 820px){
 
     .naveManual, .naveAuto{
         margin-top: 89%;
+        width: 80%;
        
     }
+    .segundoCampoSobre{
+        width: 80%;
+    }
+    
     
     
      
@@ -243,12 +286,16 @@
 
     .naveManual, .naveAuto{
         margin-top: 105%;
+        width: 80%;
        
     }
     .sliderCampo img{
         width: 650px;
         
     
+    }
+    .segundoCampoSobre{
+        width: 80%;
     }
     
      
@@ -265,10 +312,14 @@
         margin-top: 109%;
         padding: 0px;
         transform: scale(.7);
+        width: 80%;
     }
     .sliderCampo img{
         width: 600px;
         
+    }
+    .segundoCampoSobre{
+        width: 80%;
     }
      
 }
