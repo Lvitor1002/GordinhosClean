@@ -34,7 +34,7 @@
 }
 
 .sliderCampo img{
-    width: 1800px;
+    width: 1400px;
     height: 700px;
     
 
@@ -139,6 +139,11 @@
         margin-top: 41.5%;
        
     }
+    .segundoCampoSobre{
+
+        width: 50%;
+
+    }
     
      
 }
@@ -156,7 +161,7 @@
        
     }
     .sliderCampo img{
-        width: 1400px;
+        width: 1200px;
         
     }
      
@@ -194,10 +199,7 @@
     .naveManual .manualBtn, .naveAuto div{
         padding: 15px;
     }
-    .sliderCampo img{
-        width: 1000px;
-        
-    }
+    
      
 }
 @media screen and (max-width: 1020px){
@@ -206,10 +208,7 @@
         margin-top: 73%;
 
     }
-    .sliderCampo img{
-        width: 900px;
-        
-    }
+    
      
 }
 @media screen and (max-width: 960px){
@@ -236,10 +235,7 @@
         margin-top: 89%;
        
     }
-    .sliderCampo img{
-        width: 700px;
-        
-    }
+    
     
      
 }
@@ -280,8 +276,10 @@
     body{
         overflow-x: hidden; /* Remove a rolagem lateral */
     }
+    
     .naveManual, .naveAuto{
         transform: scale(.7);
+        width: 70%;
     }
     .sliderCampo img{
         width: 600px;
@@ -291,6 +289,7 @@
     }
     .segundoCampoSobre{
         border-radius: 8px;
+        width: 70%;
     }
 }
 
