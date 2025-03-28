@@ -347,7 +347,12 @@
     .controle .primeiroCampoTxt #h3Gordin{
         font-size: 20px;
     }
-    
+    .primeiroCampoSobre i{
+        position: relative;
+        left: -10px;
+
+      
+    }
     
     
 }
@@ -386,12 +391,7 @@
         line-height: 59px;
     }
     
-    .primeiroCampoSobre i{
-        position: relative;
-        left: -10px;
-
-      
-    }
+    
     
     .controle img{
         width: 650px;
@@ -477,13 +477,18 @@
     .linha{
         font-size: 20px;
     }
-    
+    .primeiroCampoSobre i{
+        margin-bottom: 10px;
+
+      
+    }
     .controle .primeiroCampoTxt #pTexto{
         width: 340px;
     }
     .controle img{
         width: 340px;
         left: 2px;
+        border-radius: 8px;
         
     }
   
