@@ -89,7 +89,7 @@ header#imgFuCa {
 .botaoContato button{
     position: relative;
     cursor: pointer;
-    left: 3px;
+    right: 20px;
     text-align: center;
     border: 0;
     background-color: rgb(0, 153, 255);
@@ -171,7 +171,7 @@ li#ctt{
 }
 .texto h3{
     background-color: rgba(0, 153, 255, 0.158);
-    padding: 0px 7px;
+    padding: 0px 19px;
     color: white;
     border-radius: 0 0 7px 7px;
 }
@@ -210,7 +210,7 @@ li#ctt{
     text-indent: 20px;
     text-align: justify;
     width: 80%;
-    color: rgba(0, 0, 0, 0.336);
+    color: rgba(0, 0, 0, 0.267);
     box-shadow: 0px 20px 26px -24px rgba(0, 0, 0, 0.637);
     border-radius: 10px;
     padding: 10px;
@@ -311,9 +311,10 @@ li#ctt{
     width: 50%;
     height: 100%;
     padding: 5px;
-    color: rgba(255, 255, 255, 0.603);
+    color: rgba(255, 255, 255, 0.534);
     border: .5px solid rgba(255, 255, 255, 0.116);
     transition: all 2s;
+    
 }
 .controleSobre .primeiroCampoSobre #pTextoSobre:hover{
     color: black;

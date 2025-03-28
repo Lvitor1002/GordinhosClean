@@ -3,7 +3,7 @@
 .segundoCampoSobre{
     margin: 0 auto;
     height: auto;
-    width: 80%;
+    width: 50%;
     padding: 0!important;
     overflow: hidden;
     height: 90%;
@@ -29,6 +29,7 @@
     position: relative;
     text-align: center;
     transition: 1s;
+    
    
 }
 
@@ -41,8 +42,8 @@
 
 .naveManual, .naveAuto{
     position: absolute;
-    width: 80%;
-    margin-top: 42%;
+    width: 50%;
+    margin-top: 38.5%;
     
     display: flex;
     justify-content: center;
@@ -125,6 +126,22 @@
 }
 
 
+@media screen and (max-width: 1850px){
+    .naveManual, .naveAuto{
+        margin-top: 40%;
+       
+    }
+    
+     
+}
+@media screen and (max-width: 1750px){
+    .naveManual, .naveAuto{
+        margin-top: 41.5%;
+       
+    }
+    
+     
+}
 @media screen and (max-width: 1650px){
     .naveManual, .naveAuto{
         margin-top: 44%;
