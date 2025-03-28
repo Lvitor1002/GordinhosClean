@@ -279,7 +279,7 @@
     
     .naveManual, .naveAuto{
         transform: scale(.7);
-        width: 70%;
+        width: 76%;
     }
     .sliderCampo img{
         width: 600px;
@@ -289,7 +289,7 @@
     }
     .segundoCampoSobre{
         border-radius: 8px;
-        width: 70%;
+        width: 76%;
     }
 }
 
