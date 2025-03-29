@@ -108,15 +108,14 @@ li#ctt{
     align-items: center;
     flex-direction: column;
     
+    
 
 }
 .controleh1 h1{
-    font-size: 120px;
     color: white;
-    
-    font-weight: bolder;
-    position: absolute;
+    font-size: 120px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.534);
     transform: translatey(200%);
     position: relative;
