@@ -441,8 +441,10 @@
     }
    
     header video{
-        height: 500px;
-        width: 810px;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: 200px;
     }
     .controleCabecalhoGeral{
         position: relative;
