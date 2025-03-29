@@ -7,7 +7,7 @@
     padding: 0!important;
     overflow: hidden;
     height: 90%;
-    border-radius: 22px;
+    border-radius: 0 0 22px 22px;
     margin-bottom: 60px;
     
     
@@ -330,7 +330,7 @@
     }
     
     .segundoCampoSobre{
-        border-radius: 8px;
+        border-radius: 0 0 8px 8px;
         width: 80%;
     }
     .sliderCampo img{

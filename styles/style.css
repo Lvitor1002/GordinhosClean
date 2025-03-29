@@ -319,11 +319,11 @@ li#ctt{
 }
 
 .controleSobre .primeiroCampoSobre #pTextoSobre{
-    text-align: center;
+    text-align: justify;
     line-height: 30px;
     text-indent: 20px;
     margin-bottom: 10px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0 ;
     width: 80%;
     height: 100%;
     padding: 5px;
