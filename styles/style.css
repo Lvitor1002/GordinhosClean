@@ -131,7 +131,7 @@ li#ctt{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px -20px 144px 116px white;
+    box-shadow: 0px -115px 81px 56px white;
     position: relative;
     
 }
@@ -254,7 +254,7 @@ li#ctt{
     0%{
         top: 0;
     }100%{
-        top: 45px;
+        top: 95px;
     }
 }
 
