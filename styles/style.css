@@ -24,7 +24,8 @@ main{
 /*                                    CABEÇALHO                                           */
 
 
-
+header video{
+}
 .controleCabecalhoGeral{
     position: relative;
     bottom: 1120px;

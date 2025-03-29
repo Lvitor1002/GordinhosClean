@@ -440,11 +440,15 @@
         overflow-x: hidden; /* Remove a rolagem lateral */
     }
    
+    header video{
+        height: 500px;
+        width: 810px;
+    }
     .controleCabecalhoGeral{
         position: relative;
-        bottom: 520px;
+        bottom: 1120px;
     }
-    
+
     .controle .primeiroCampoTxt h1{
         width: 390px;
     }
