@@ -87,7 +87,7 @@
         left: 50px;
         
     }
-    .botaoContato button#iniciar{
+    button#iniciar{
         left: 10px;
     }
     .menu ul li{
@@ -104,7 +104,7 @@
         display: none;
         
     }
-    .botaoContato button#iniciar{
+    button#iniciar{
         display: block;
     }
     li#ctt{
@@ -168,7 +168,7 @@
     .bi {
         left: 190px;
     }
-    .botaoContato button#iniciar{
+    button#iniciar{
         top: 350px;
     }
     .controleh1 h1{
@@ -209,9 +209,10 @@
     }
    
    
-    .botaoContato button#iniciar{
-        top: 230px;
+    button#iniciar{
+        top: 220px;
         font-size: 20px;
+        left: 5px;
     }
     
     .bi {
