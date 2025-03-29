@@ -446,6 +446,7 @@
         position: relative;
         top: 100px;
         background-color: aqua;
+        z-index: 1;
     }
     .controleCabecalhoGeral{
         position: relative;
