@@ -444,13 +444,11 @@
         height: 100%;
         width: 100%;
         position: relative;
-        top: 100px;
+        top: 200px;
         background-color: aqua;
-        z-index: 1;
     }
     .controleCabecalhoGeral{
         position: relative;
-        bottom: 1120px;
     }
 
     .controle .primeiroCampoTxt h1{

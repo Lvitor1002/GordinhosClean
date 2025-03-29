@@ -24,7 +24,15 @@ main{
 /*                                    CABEÇALHO                                           */
 
 
-
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz o vídeo se ajustar ao tamanho da tela */
+    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+}
 .controleCabecalhoGeral{
     position: relative;
     bottom: 1120px;
