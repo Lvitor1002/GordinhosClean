@@ -207,6 +207,7 @@
     }
     
     
+    
 }
 @media screen and (max-width: 550px){
 
@@ -252,24 +253,17 @@
         font-size: 50px;
         
     }
-
-    
-}
-@media screen and (max-width: 500px){
-
-    .barraAmarela{
-        width: 65%;
-    }
-    .controleh1 h1{
-        font-size: 38px;
-        transform: translatey(480%);
-    }
     .bi {
         left: -50px;
     }
 
     
 }
+  
+    
+
+    
+
 @media screen and (max-width: 450px){
     
     .controleh1 h1{
@@ -430,37 +424,34 @@
         top: 130px;
         
     }
+    .video-background{
+        display: none;
+    }
+    .controleCabecalhoGeral{
+        background-image: url(../image/FundoCabecalho.png);
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
 
     
  
     
 }
 
-@media(min-aspect-ratio: 16/9){
-    .video-background {
-        width: 100%;
-        height: auto;
-    }
-}
-@media(max-aspect-ratio: 16/9){
-    .video-background {
-        height: 100%;
-        width: auto;
-    }
-}
+
 
 @media screen and (max-width: 590px){
     body{
         overflow-x: hidden; /* Remove a rolagem lateral */
     }
-   
     
 
     .controle .primeiroCampoTxt h1{
         width: 390px;
     }
     .servicos{
-        bottom: 150px; 
+        bottom: 100px; 
     }
     .texto{
         top: 30px;
