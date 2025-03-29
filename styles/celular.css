@@ -446,12 +446,11 @@
         overflow-x: hidden; /* Remove a rolagem lateral */
     }
     
-
+    .sobreNos{
+        margin-top: 50px;
+    }
     .controle .primeiroCampoTxt h1{
         width: 390px;
-    }
-    .servicos{
-        bottom: 100px; 
     }
     .texto{
         top: 30px;
