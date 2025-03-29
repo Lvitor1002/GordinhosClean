@@ -441,11 +441,10 @@
     }
    
     header video{
-        display: block;
         height: 100%;
         width: 100%;
         position: relative;
-        top: 1000px;
+        top: 200px;
     }
     .controleCabecalhoGeral{
         position: relative;
