@@ -311,8 +311,7 @@ li#ctt{
 }
 #pTextoSobre i{
     color: rgb(230, 196, 4);
-    border-radius: 10px;
-    padding: 10px;
+    padding: 0 3px;
     font-size: 100px;
     
     
@@ -324,6 +323,7 @@ li#ctt{
     text-indent: 20px;
     margin-bottom: 10px;
     border-radius: 20px 20px 0 0 ;
+    font-size: 19px;
     width: 80%;
     height: 100%;
     padding: 5px;
