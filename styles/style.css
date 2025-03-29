@@ -25,14 +25,15 @@ main{
 
 
 .video-background {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Faz o vídeo se ajustar ao tamanho da tela */
-    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+    object-fit: cover; /* Garante que o vídeo preencha o container sem distorção */
+    z-index: -1; /* Para ficar atrás do conteúdo */
 }
+
 .controleCabecalhoGeral{
     position: relative;
     bottom: 1120px;
@@ -311,7 +312,6 @@ li#ctt{
     display: flex;
     align-items: center;
     flex-direction: row;
-    
     
     
 }
