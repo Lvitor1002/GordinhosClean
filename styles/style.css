@@ -122,7 +122,6 @@ li#ctt{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.534);
     transform: translatey(200%);
-    -webkit-text-stroke: 1px #fff;
     position: relative;
 }
 
