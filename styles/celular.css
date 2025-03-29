@@ -439,14 +439,17 @@
     body{
         overflow-x: hidden; /* Remove a rolagem lateral */
     }
-    header video{
-        height: 100%;
+   
+    .controleCabecalhoGeral{
+        position: relative;
+        bottom: 520px;
     }
+    
     .controle .primeiroCampoTxt h1{
         width: 390px;
     }
     .servicos{
-        bottom: 0px; 
+        bottom: 150px; 
     }
     .texto{
         top: 30px;
