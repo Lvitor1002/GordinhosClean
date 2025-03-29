@@ -26,10 +26,7 @@ main{
 
 .video-background {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    
     object-fit: cover; /* Garante que o vídeo preencha o container sem distorção */
     z-index: -1; /* Para ficar atrás do conteúdo */
 }
@@ -131,9 +128,10 @@ li#ctt{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px -115px 81px 56px white;
+    box-shadow: 0px -316px 192px 207px white;
+
     position: relative;
-    
+    margin-top: 1000px;
 }
 
 .controle{
@@ -142,8 +140,10 @@ li#ctt{
     align-items: center;
     width: 80%;
     height: 100%;
-    margin-bottom: 120px;
+    position: relative;
+    bottom: 200px;
     gap:100px ;
+    
     
 }
 
@@ -254,7 +254,7 @@ li#ctt{
     0%{
         top: 0;
     }100%{
-        top: 95px;
+        top: 45px;
     }
 }
 

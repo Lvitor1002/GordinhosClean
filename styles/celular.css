@@ -202,6 +202,7 @@
     .controleh1 h1{
         font-size: 71px;
     }
+    
     .bi {
         left: 100px;
     }
@@ -424,6 +425,13 @@
         top: 130px;
         
     }
+    @keyframes flutuar {
+        0%{
+            top: 0;
+        }100%{
+            top: 95px;
+        }
+    }
     .video-background{
         display: none;
     }
@@ -453,8 +461,11 @@
         position: relative;
         bottom: 50px;
     }
+    .servicos{
+        margin-top: 320px;
+    }
     .controle .primeiroCampoTxt h1{
-        width: 390px;
+        width: 320px;
     }
     .texto{
         top: 30px;
