@@ -139,7 +139,9 @@ li#ctt{
     height: 100%;
     margin-bottom: 120px;
     gap:100px ;
+    
 }
+
 
 .controle .primeiroCampoTxt{
     display: flex;
@@ -292,20 +294,25 @@ li#ctt{
 .primeiroCampoSobre{
     
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 95%;
+    width: 100%;
     position: relative;
-    gap: 10px;
     
     
 }
-.primeiroCampoSobre i{
+#pTextoSobre {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    
+}
+#pTextoSobre i{
     color: rgb(230, 196, 4);
     border-radius: 10px;
     padding: 10px;
-    margin: 0 50px;
     font-size: 100px;
     
     
@@ -317,7 +324,7 @@ li#ctt{
     text-indent: 20px;
     margin-bottom: 10px;
     border-radius: 20px;
-    width: 50%;
+    width: 80%;
     height: 100%;
     padding: 5px;
     box-shadow:0px 0px 18px 3px rgba(0, 0, 0, 0.075);
@@ -346,6 +353,7 @@ li#ctt{
     width: 100vw;
     height: 100vh;
     border-radius: 40px;
+    margin-top: 30px;
 
     display: flex;
     justify-content: center;

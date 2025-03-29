@@ -23,6 +23,25 @@
         
     }
 }
+@media screen and (max-width: 1705px){
+    
+    .texto{
+        width: 100%;
+        gap: 10px;
+    }
+    .controle .primeiroCampoTxt #pTexto{
+        width: 100%;
+        
+    }
+    .texto h1{
+        width: 100%;
+        
+    }
+    .texto h3{
+        width: 100%;
+    }
+    
+}
 @media screen and (max-width: 1425px){
     .barraAmarela{
         width: 77%;
@@ -296,7 +315,7 @@
         
         gap: 0px;
     }
-    .primeiroCampoSobre i{
+    #pTextoSobre i{
         padding: 0px;
         margin: 0px;
     }
@@ -317,10 +336,13 @@
         flex-direction: column;
     }
     .controleSobre .primeiroCampoSobre #pTextoSobre{
-        width: 100%;
+        width: 80%;
         
     }
-    .primeiroCampoSobre i{
+    #pTextoSobre{
+        flex-direction: column;
+    }
+    #pTextoSobre i{
         font-size: 70px;
     }
     
@@ -346,12 +368,6 @@
     }
     .controle .primeiroCampoTxt #h3Gordin{
         font-size: 20px;
-    }
-    .primeiroCampoSobre i{
-        position: relative;
-        left: -10px;
-
-      
     }
     
     
@@ -462,8 +478,7 @@
         width: 360px;
     }
     .linha{
-        color: rgba(4, 155, 255, 0.527);
-        top: 98px;
+        display: none;
     }
      .controle .primeiroCampoTxt h3{
         width: 360px;
@@ -474,14 +489,8 @@
         font-weight: 0;
         font-size: 39px;
     }
-    .linha{
-        font-size: 20px;
-    }
-    .primeiroCampoSobre i{
-        margin-bottom: 10px;
-
-      
-    }
+    
+    
     .controle .primeiroCampoTxt #pTexto{
         width: 340px;
     }

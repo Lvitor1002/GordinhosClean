@@ -3,7 +3,7 @@
 .segundoCampoSobre{
     margin: 0 auto;
     height: auto;
-    width: 50%;
+    width: 70%;
     padding: 0!important;
     overflow: hidden;
     height: 90%;
@@ -42,7 +42,7 @@
 
 .naveManual, .naveAuto{
     position: absolute;
-    width: 50%;
+    width: 70%;
     margin-top: 38.5%;
     
     display: flex;
@@ -137,17 +137,13 @@
 @media screen and (max-width: 1750px){
     .naveManual, .naveAuto{
         margin-top: 41.5%;
+        
        
-    }
-    .segundoCampoSobre{
-
-        width: 50%;
-
     }
     
      
 }
-@media screen and (max-width: 1650px){
+@media screen and (max-width: 1670px){
     .naveManual, .naveAuto{
         margin-top: 44%;
        
@@ -159,11 +155,11 @@
     .naveManual, .naveAuto{
         margin-top: 48%;
        
-        width: 80%;
+        width: 70%;
        
     }
     .segundoCampoSobre{
-        width: 80%;
+        width: 70%;
     }
     .sliderCampo img{
         width: 1200px;
@@ -171,7 +167,7 @@
     }
      
 }
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1420px){
     
     .naveManual, .naveAuto{
         margin-top: 53%;
