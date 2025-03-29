@@ -172,6 +172,7 @@
         top: 350px;
     }
     .controleh1 h1{
+        font-size: 55px!important;
         top: 0px;
     }
     
@@ -183,12 +184,7 @@
         width: 78%;
         left: 90px;
     }
-    .controleh1 h1{
-        top:0px;
-    }
-    .botaoContato button#iniciar{
-        top: 220px;
-    }
+    
     .bi {
         left: 150px;
     }
@@ -212,8 +208,9 @@
         left: 90px;
     }
    
+   
     .botaoContato button#iniciar{
-        top: 430px;
+        top: 230px;
         font-size: 20px;
         text-decoration: none!important;
     }
@@ -221,14 +218,15 @@
     .bi {
         left: 100px;
     }
+    .controleh1 h1{
+        top: 70px;
+    }
     
     
     
 }
 @media screen and (max-width: 550px){
-    .controleh1 h1{
-        transform: translatey(370%);
-    }
+    
     
     .bi {
         left: 90px;
@@ -241,9 +239,7 @@
     .barraAmarela{
         width: 71%;
     }
-    .controleh1 h1{
-        transform: translatey(410%);
-    }
+    
     .bi {
         left: -10px;
     }
@@ -255,10 +251,7 @@
     .barraAmarela{
         width: 65%;
     }
-    .controleh1 h1{
-        font-size: 70px;
-        transform: translatey(480%);
-    }
+    
     .bi {
         left: -30px;
     }
@@ -274,21 +267,7 @@
     
 }
   
-    
-
-    
-
-@media screen and (max-width: 450px){
-    
-    .controleh1 h1{
-        font-size: 36px;
-        transform: translatey(480%);
-
-    }
-   
-
-    
-}
+ 
 
 /*                                   CONTEÚDO                                          */
 @media screen and (max-width: 1710px){
