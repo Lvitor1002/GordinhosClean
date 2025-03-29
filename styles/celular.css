@@ -87,6 +87,9 @@
         left: 50px;
         
     }
+    .botaoContato button#iniciar{
+        left: 10px;
+    }
     .menu ul li{
         font-size: 17px;
     }
@@ -101,6 +104,9 @@
         display: none;
         
     }
+    .botaoContato button#iniciar{
+        display: block;
+    }
     li#ctt{
         display: block;
         cursor: pointer;
@@ -113,7 +119,7 @@
     .controleh1 h1{
         font-size: 85px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+        top: 50px;
     }
 
     
@@ -162,6 +168,12 @@
     .bi {
         left: 190px;
     }
+    .botaoContato button#iniciar{
+        top: 350px;
+    }
+    .controleh1 h1{
+        top: 0px;
+    }
     
    
     
@@ -172,8 +184,10 @@
         left: 90px;
     }
     .controleh1 h1{
-        font-size: 78px;
-        transform: translatey(360%);
+        top:0px;
+    }
+    .botaoContato button#iniciar{
+        top: 220px;
     }
     .bi {
         left: 150px;
@@ -184,9 +198,7 @@
 }
 @media screen and (max-width: 600px){
    
-    .controleh1 h1{
-        font-size: 73px;
-    }
+    
     .bi {
         left: 128px;
     }
@@ -199,8 +211,11 @@
         width: 71%;
         left: 90px;
     }
-    .controleh1 h1{
-        font-size: 71px;
+   
+    .botaoContato button#iniciar{
+        top: 430px;
+        font-size: 20px;
+        text-decoration: none!important;
     }
     
     .bi {
@@ -211,11 +226,10 @@
     
 }
 @media screen and (max-width: 550px){
-
     .controleh1 h1{
-        font-size: 65px;
-        transform: translatey(375%);
+        transform: translatey(370%);
     }
+    
     .bi {
         left: 90px;
     }
@@ -228,7 +242,6 @@
         width: 71%;
     }
     .controleh1 h1{
-        font-size: 60px;
         transform: translatey(410%);
     }
     .bi {
@@ -243,7 +256,7 @@
         width: 65%;
     }
     .controleh1 h1{
-        font-size: 50px;
+        font-size: 70px;
         transform: translatey(480%);
     }
     .bi {

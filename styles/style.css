@@ -99,6 +99,18 @@ main{
     font-size: 21px;
     font-weight: bold;
 }
+.botaoContato button#iniciar{
+    position: relative;
+    top: 290px;
+    padding: 9px 30px;
+    border-radius: 8px;
+    font-size: 30px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color: rgba(0, 153, 255, 0.623);
+}
+
 li#ctt{
     display: none;
 }
