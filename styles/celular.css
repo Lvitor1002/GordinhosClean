@@ -4,10 +4,7 @@
 /*                                    CABEÇALHO                                           */
 
 @media screen and (max-width: 1025px){
-    header#imgFuCa {
-        
-        background-position: 80% 0%; /*100% na horizontal e 0% na vertical*/
-    }
+
     .barraAmarela{
         width: 74.6%;
     }
@@ -186,10 +183,7 @@
     
 }
 @media screen and (max-width: 600px){
-    header#imgFuCa {
-        background-position: 50% 0px; /*100% na horizontal e 0% na vertical*/
-        background-size: auto;
-    }
+   
     .controleh1 h1{
         font-size: 73px;
     }
@@ -200,10 +194,7 @@
     
 }
 @media screen and (max-width: 590px){
-    header#imgFuCa {
-        background-position: 40% 0px; /*100% na horizontal e 0% na vertical*/
-        background-size: auto;
-    }
+
     .barraAmarela{
         width: 71%;
         left: 90px;
@@ -218,10 +209,7 @@
     
 }
 @media screen and (max-width: 550px){
-    header#imgFuCa {
-        background-position: 23% 0px; /*100% na horizontal e 0% na vertical*/
-        background-size: auto;
-    }
+
     .controleh1 h1{
         font-size: 65px;
         transform: translatey(375%);
@@ -233,10 +221,7 @@
     
 }
 @media screen and (max-width: 530px){
-    header#imgFuCa {
-        background-position: 20% 0px; /*100% na horizontal e 0% na vertical*/
-        background-size: auto;
-    }
+
     .barraAmarela{
         width: 71%;
     }
@@ -251,10 +236,7 @@
     
 }
 @media screen and (max-width: 500px){
-    header#imgFuCa {
-        background-position: 10% 0px; /*100% na horizontal e 0% na vertical*/
-        background-size: auto;
-    }
+
     .barraAmarela{
         width: 65%;
     }
@@ -274,10 +256,7 @@
     
 }
 @media screen and (max-width: 500px){
-    header#imgFuCa {
-        background-position: 10% 0px; /*100% na horizontal e 0% na vertical*/
-        background-size: auto;
-    }
+
     .barraAmarela{
         width: 65%;
     }
@@ -460,8 +439,14 @@
     body{
         overflow-x: hidden; /* Remove a rolagem lateral */
     }
+    header video{
+        height: 100%;
+    }
     .controle .primeiroCampoTxt h1{
         width: 390px;
+    }
+    .servicos{
+        bottom: 150px; 
     }
     .texto{
         top: 30px;

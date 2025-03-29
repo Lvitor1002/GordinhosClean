@@ -15,37 +15,51 @@
 <body onresize="mudou_tamanho()">
     
     <!--                                    CABEÇALHO                                           -->
-    <header class="imgFundoCabecalho" id="imgFuCa">
+    <!-- <header class="imgFundoCabecalho" id="imgFuCa"> -->
+    <header>
+
+        <video autoplay loop muted playsinline>
+            <source src="video/desktop.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos em HTML5.
+        </video>
+
+        <div class="controleCabecalhoGeral">
+            <div class="barraAmarela"></div> 
+
+            <div class="controleCabecalho">
+                <div class="logo">
+                    <img src="image/gordinhosLogo.jpeg" alt="Logo Gordinhos">
+                </div><!-- FIM | logo -->
         
-        <div class="barraAmarela"></div>  
-        <div class="controleCabecalho">
-            <div class="logo">
-                <img src="image/gordinhosLogo.jpeg" alt="Logo Gordinhos">
-            </div><!-- FIM | logo -->
+                <nav class="menu">
+                    <ul>
+                        <li>Início</li><!-- Detalhamento dos serviços oferecidos, como limpeza de sofás, poltronas, cadeiras, tapetes e colchões. -->
+                        <li>Serviços</li>
+                        <li>Sobre Nós</li>
+                        <li>Depoimentos</li>
+                        <li>Blog</li>
+                        <li>FAQ</li>
+                        <li id="ctt">Contato</li>
+                    </ul>
+                </nav><!-- FIM | menu -->
+                
+                <i class="bi bi-list" onclick="clickMenu()"></i>
+                
     
-            <nav class="menu">
-                <ul>
-                    <li>Início</li><!-- Detalhamento dos serviços oferecidos, como limpeza de sofás, poltronas, cadeiras, tapetes e colchões. -->
-                    <li>Serviços</li>
-                    <li>Sobre Nós</li>
-                    <li>Depoimentos</li>
-                    <li>Blog</li>
-                    <li>FAQ</li>
-                    <li id="ctt">Contato</li>
-                </ul>
-            </nav><!-- FIM | menu -->
-            
-            <i class="bi bi-list" onclick="clickMenu()"></i>
-            
+                <div class="botaoContato">
+                    <a href="#"><button>Contato</button></a>
+                </div><!-- FIM | botaoContato -->
+            </div><!-- FIM | controleCabecalho -->
 
-            <div class="botaoContato">
-                <a href="#"><button>Contato</button></a>
-            </div><!-- FIM | botaoContato -->
-        </div><!-- FIM | controleCabecalho -->
 
-        <div class="controleh1">   
-            <h1>Surpreenda-se!</h1>
-        </div><!-- FIM | controleGeral -->
+            <div class="controleh1">   
+                <h1>Surpreenda-se!</h1>
+            </div><!-- FIM | controleGeral -->
+            
+        </div><!-- FIM | controleCabecalhoGeral -->
+        
+
+        
     </header><!-- FIM | imgFundoCabecalho -->
 
 
