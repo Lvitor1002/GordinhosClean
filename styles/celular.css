@@ -608,6 +608,7 @@
         flex-direction: column;
         bottom: 0;
         justify-content: center;
+        
 
 
     }
@@ -617,6 +618,9 @@
         justify-content: center;
         left: 30px;
         gap: 0px;
+        overflow-x: hidden; /* Remove a rolagem lateral */
+        
+
     }
     
     .midiaConteudo i#instagram{
@@ -624,13 +628,14 @@
         padding: 0px;
         margin: 0;
         
+        
     }
     .midiaConteudo i#facebook{
         font-size: 60px;
         padding: 0px 50px;
         margin: 0;
         left: -65px;
-
+        
         
     }
     .midiaConteudo i#youtube{
@@ -638,6 +643,7 @@
         padding: 0px;
         margin: 0;
         left: -40px;
+        
         
     }
     .midiaConteudo iframe{
