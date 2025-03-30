@@ -435,7 +435,8 @@ li#ctt{
     text-align: center;
     justify-content: center;
     color: rgba(94, 42, 4, 0.767);
-    top: 42px;
+    top: 1320px;
+    text-shadow: 0px 1px 314px black;
     
 
 }
@@ -506,7 +507,7 @@ li#ctt{
 .segundaBackground h1{
     color: white;
     font-size: 40px;
-    text-shadow: 0px 1px 84px black;
+    text-shadow:  1px 1px 45px black;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
