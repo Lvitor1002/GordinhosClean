@@ -562,8 +562,10 @@
         
     }
     .primeiroBackground{
-        width: 400px;
-        height: 500px;
+
+        background-attachment: scroll; /* Remove o efeito fixo no celular */
+        background-size: cover;
+        background-position: center center; /* Mantém a imagem bem posicionada */
     }
     .midiaConteudo{
         gap: 0;
