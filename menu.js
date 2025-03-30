@@ -39,3 +39,15 @@ function proximaImg(){
     document.getElementById('radio'+cont).checked = true
 
 }
+
+window.addEventListener('scroll', function() {
+    // Pega a posição de rolagem
+    let scrollPosition = window.scrollY;
+    
+    // Acessa o elemento de fundo
+    let bgElement = document.querySelector('.primeiroBackground');
+
+    // Simula o efeito fixo no celular
+    // Modifica a posição do fundo com base na rolagem
+    bgElement.style.backgroundPosition = 'center ' + (scrollPosition * 0.5) + 'px';
+});
