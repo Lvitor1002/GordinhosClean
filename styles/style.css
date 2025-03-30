@@ -369,13 +369,33 @@ li#ctt{
     
 }
 
-/*                                   Conteúdo                                    */
+/*                                   Conteúdo > ImgBackground                                   */
+.imgBackground{
+    margin-top: 40px;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position: 100% 60%; /*100% na horizontal e 0% na vertical*/
+    
+}
+#fundo{
+    background-image: url(/image/limpando.png);
+}
+
+.ImgBackground h1{
+    text-align: center;
+}
+
+/*                                   Conteúdo > conteudo                                   */
 
 .conteudo{
     background-color:yellow;
     width: 100vw;
     height: 150%;
-    border-radius: 40px;
+    border-radius: 40px 40px 0 0;
     margin-top: 30px;
 
     display: flex;
@@ -392,10 +412,20 @@ li#ctt{
     flex-wrap: nowrap;
 
 }
+.midiaConteudo h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.664);
+    
+
+}
 .midiaConteudo iframe{
     width: 600px;
     height: 900px;
-    border-radius: 40px;
+    border-radius: 40px 40px 0 0;
     padding: 10px;
     text-align: center;
 }
@@ -404,22 +434,47 @@ li#ctt{
     align-items: center;
     flex-direction: row;
     text-align: center;
-    justify-content: space-evenly;
-    gap: 150px;
+    justify-content: space-between;
+    gap: 350px;
+}
+.facebook iframe{
+    height: 1080px;
+
 }
 .youtube{
     display: flex;
     align-items: center;
     flex-direction: row;
     text-align: center;
-    justify-content: space-evenly;
-    gap: 150px;
+    justify-content: space-between;
+    gap: 350px;
 }
 .midiaConteudo i#facebook{
+    position: relative;
+    top: 520px;
     font-size: 90px;
     color: rgb(0, 153, 255);
 }
 .midiaConteudo i#youtube{
+    position: relative;
+    top: 520px;
     font-size: 90px;
     color: rgb(255, 0, 0);
+}
+
+/*                                   Conteúdo > ImgBackground2                                   */
+
+.imgBackground2{
+    margin-top: 40px;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position: 100% 60%; /*100% na horizontal e 0% na vertical*/
+    
+}
+#fundo2{
+    background-image: url(/image/limpando.png);
 }

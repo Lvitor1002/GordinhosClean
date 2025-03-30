@@ -286,7 +286,23 @@
         padding: 0px;
         margin: 0px;
     }
+    .facebook{
+        gap: 250px;
+    }
+    .youtube{
+        gap: 250px;
+    }
+
     
+    
+}
+@media screen and (max-width: 1430px){
+    .facebook{
+        gap: 90px;
+    }
+    .youtube{
+        gap: 90px;
+    }
 
     
     
@@ -317,6 +333,16 @@
         height: 180%;
         
     } 
+    .midiaConteudo i#facebook{
+
+        top: 15px;
+        
+    }
+    .midiaConteudo i#youtube{
+
+        top: 15px;
+    }
+    
 
     .facebook{
         flex-direction: column;
@@ -536,32 +562,44 @@
         
     }
     .midiaConteudo{
-
+        gap: 0;
         flex-direction: column;
+        
+
+    }
+    .midiaConteudo h1{
+        font-size: 40px;
 
     }
     .midiaConteudo iframe{
-        width: 330px;
-        height: 650px;
+        width: 340px;
         padding: 10px 0;
     }
     .midiaConteudo i#facebook{
-        position: relative;
         font-size: 60px;
         left: -8px;
+        top: 0px;
+        
     }
     .midiaConteudo i#youtube{
         position: relative;
         font-size: 60px;
         left: -8px;
+        top: 0px;
+    }
+    .facebook iframe{
+        height: 580px;
+    
     }
     .facebook{
         justify-content: center;
-        gap: 2px;
+        gap: 0px;
     }
     .youtube{
-        gap: 2px;
+        gap: 0px;
     }
+   
+    
     
      
 }
