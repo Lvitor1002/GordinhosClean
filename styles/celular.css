@@ -369,15 +369,6 @@
     
 }
 
-@media screen and (max-width: 905px){
-    
-    .controleRedes{
-        gap: 0px;
-        justify-content: center;
-    }
-    
-    
-}
 @media screen and (max-width: 885px){
     
     .controleRedes{
@@ -613,38 +604,9 @@
 
     }
     .controleRedes{
-        bottom: 90px;
-        padding: 0;
-        justify-content: center;
-        left: 30px;
-        gap: 0px;
-        overflow-x: hidden; /* Remove a rolagem lateral */
-        
-
-    }
-    
-    .midiaConteudo i#instagram{
-        font-size: 60px;
-        padding: 0px;
-        margin: 0;
-        
-        
-    }
-    .midiaConteudo i#facebook{
-        font-size: 60px;
-        padding: 0px 50px;
-        margin: 0;
-        left: -65px;
-        
-        
-    }
-    .midiaConteudo i#youtube{
-        font-size: 60px;
-        padding: 0px;
-        margin: 0;
-        left: -40px;
-        
-        
+        left: 0px;
+        gap: 50px;
+        bottom: 120px;
     }
     .midiaConteudo iframe{
         width: 340px;
@@ -669,42 +631,35 @@
         padding: 0px;
         margin: 0;
     }
-    .segundaBackground{
-
-        background-attachment: scroll; /* Remove o efeito fixo no celular */
-        background-size: cover;
-        background-position: center center; /* Mantém a imagem bem posicionada */
-        
-    }
-    .segundaBackground h1{
-
-        font-size: 20px;
-        
-    }
     .blog{
         flex-direction: column;
     
     }
     .bloxTexto{
-        width: 350px;
+        width: 340px;
+        
    
     }
     .bloxTexto h1{
         font-size: 55px;
         
+        
     }
     .bloxTexto p{
         font-size: 25px;
+        
         
     }
     .bloxTexto h2{
         top: 0px;
         
+        
     }
     .blogImg img{
-        width: 350px;
+        width: 340px;
         height: 500px;
         margin-bottom: 10px;
+        
     }
    
     

@@ -468,10 +468,10 @@ li#ctt{
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     bottom:47px;
-    gap: 300px;
+    gap: 400px;
 }
 
 .midiaConteudo i#instagram{
@@ -479,21 +479,21 @@ li#ctt{
     font-size: 90px;
     color: rgb(216, 97, 0);
 
-    padding: 10px 80px;
+    padding: 10px 0px;
     
 }
 .midiaConteudo i#facebook{
     position: relative;
     font-size: 90px;
     color: rgb(0, 132, 255);
-    padding: 10px 80px;
+    padding: 10px 0px;
     
 }
 .midiaConteudo i#youtube{
     position: relative;
     font-size: 90px;
     color: rgb(255, 0, 0);
-    padding: 10px 80px;
+    padding: 10px 0px;
 }
 
 /*                                   Conteúdo > blog                                   */
@@ -566,7 +566,7 @@ li#ctt{
     margin-top: 30px;
     background-color:rgb(145, 8, 8);
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     border-radius: 40px;
 
     display: flex;
