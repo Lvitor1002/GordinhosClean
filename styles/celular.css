@@ -566,6 +566,12 @@
         background-attachment: scroll; /* Remove o efeito fixo no celular */
         background-size: cover;
         background-position: center center; /* Mantém a imagem bem posicionada */
+        
+    }
+    .primeiroBackground h1{
+
+        font-size: 20px;
+        
     }
     .midiaConteudo{
         gap: 0;
