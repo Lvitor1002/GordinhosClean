@@ -292,6 +292,10 @@
     .youtube{
         gap: 250px;
     }
+    .controleRedes{
+
+        gap: 200px;
+    }
 
     
     
@@ -333,15 +337,7 @@
         height: 180%;
         
     } 
-    .midiaConteudo i#facebook{
-
-        top: 15px;
-        
-    }
-    .midiaConteudo i#youtube{
-
-        top: 15px;
-    }
+   
     
 
     .facebook{
@@ -350,11 +346,23 @@
     .youtube{
         flex-direction: column;
     }
+    .controleRedes{
+        gap: 100px;
+    }
     
     
     
 }
 
+@media screen and (max-width: 905px){
+    
+    .controleRedes{
+        gap: 0px;
+        justify-content: center;
+    }
+    
+    
+}
 @media screen and (max-width: 845px){
     
     .linha{
@@ -580,22 +588,28 @@
         
 
     }
+    .controleRedes{
+        bottom: 90px;
+        left: 20px;
+    }
     
-    .midiaConteudo iframe{
-        width: 340px;
-        padding: 10px 0;
+    .midiaConteudo i#instagram{
+        font-size: 60px;
+        padding: 0px 55px;
+        
     }
     .midiaConteudo i#facebook{
         font-size: 60px;
-        left: -8px;
-        top: 0px;
+        padding: 0px 55px;
         
     }
     .midiaConteudo i#youtube{
-        position: relative;
         font-size: 60px;
-        left: -8px;
-        top: 0px;
+        padding: 0px 55px;
+    }
+    .midiaConteudo iframe{
+        width: 340px;
+        padding: 10px 0;
     }
     .facebook iframe{
         height: 580px;
