@@ -435,8 +435,11 @@ li#ctt{
     text-align: center;
     justify-content: center;
     color: rgba(94, 42, 4, 0.767);
-    top: 1320px;
+    top: 1350px;
     text-shadow: 0px 1px 314px black;
+    border-radius: 10px;
+    padding: 10px 80px;
+    border: .5px solid rgba(0, 0, 0, 0.13);
     
 
 }
