@@ -3,11 +3,11 @@
 .segundoCampoSobre{
     margin: 0 auto;
     height: auto;
-    width: 70%;
+    width: 60%;
     padding: 0!important;
     overflow: hidden;
     height: 90%;
-    border-radius: 0 0 22px 22px;
+    border-radius: 0 0 40px 40px;
     margin-bottom: 60px;
     
     
@@ -17,6 +17,7 @@
     height: auto;
     width: 400%;
     display: flex;
+    
     
     
 }
@@ -42,7 +43,7 @@
 
 .naveManual, .naveAuto{
     position: absolute;
-    width: 70%;
+    width: 60%;
     margin-top: 38.5%;
     
     display: flex;

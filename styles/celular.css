@@ -311,6 +311,21 @@
     
     
 }
+@media screen and (max-width: 1230px){
+    .blog{
+        flex-direction: column;
+    
+    }
+    .bloxTexto h1{
+        bottom: 0px;
+        
+    }
+    .bloxTexto h2{
+        top: 0px;
+        
+    }
+    
+}
 @media screen and (max-width: 1140px){
     .sobre{
         margin-top: 50px;
@@ -361,6 +376,13 @@
         justify-content: center;
     }
     
+    
+}
+@media screen and (max-width: 885px){
+    
+    .controleRedes{
+        left: -200px;
+    }
     
 }
 @media screen and (max-width: 845px){
@@ -637,6 +659,31 @@
 
         font-size: 20px;
         
+    }
+    .blog{
+        flex-direction: column;
+    
+    }
+    .bloxTexto{
+        width: 350px;
+   
+    }
+    .bloxTexto h1{
+        font-size: 55px;
+        
+    }
+    .bloxTexto p{
+        font-size: 25px;
+        
+    }
+    .bloxTexto h2{
+        top: 0px;
+        
+    }
+    .blogImg img{
+        width: 350px;
+        height: 500px;
+        margin-bottom: 10px;
     }
    
     
