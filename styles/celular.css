@@ -607,31 +607,37 @@
         gap: 0;
         flex-direction: column;
         bottom: 0;
-        
+        justify-content: center;
+
 
     }
     .controleRedes{
         bottom: 90px;
-        left: 20px;
-        gap: 50px;
         padding: 0;
-
-        
+        justify-content: center;
+        left: 30px;
+        gap: 0px;
     }
     
     .midiaConteudo i#instagram{
         font-size: 60px;
-        padding: 0px 55px;
+        padding: 0px;
+        margin: 0;
         
     }
     .midiaConteudo i#facebook{
         font-size: 60px;
-        padding: 0px;
+        padding: 0px 50px;
+        margin: 0;
+        left: -65px;
+
         
     }
     .midiaConteudo i#youtube{
         font-size: 60px;
         padding: 0px;
+        margin: 0;
+        left: -40px;
         
     }
     .midiaConteudo iframe{
@@ -649,9 +655,13 @@
     .facebook{
         justify-content: center;
         gap: 0px;
+        padding: 0px;
+        margin: 0;
     }
     .youtube{
         gap: 0px;
+        padding: 0px;
+        margin: 0;
     }
     .segundaBackground{
 
