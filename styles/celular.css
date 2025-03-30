@@ -312,10 +312,23 @@
     #pTextoSobre i{
         font-size: 70px;
     }
+    .conteudo{
+       
+        height: 180%;
+        
+    } 
+
+    .facebook{
+        flex-direction: column;
+    }
+    .youtube{
+        flex-direction: column;
+    }
     
     
     
 }
+
 @media screen and (max-width: 845px){
     
     .linha{
@@ -521,6 +534,33 @@
     .controleSobre .primeiroCampoSobre #pTextoSobre{
         width: 370px;
         
+    }
+    .midiaConteudo{
+
+        flex-direction: column;
+
+    }
+    .midiaConteudo iframe{
+        width: 400px;
+        height: 700px;
+        padding: 10px 0;
+    }
+    .midiaConteudo i#facebook{
+        position: relative;
+        font-size: 60px;
+        left: -8px;
+    }
+    .midiaConteudo i#youtube{
+        position: relative;
+        font-size: 60px;
+        left: -8px;
+    }
+    .facebook{
+        justify-content: center;
+        gap: 2px;
+    }
+    .youtube{
+        gap: 2px;
     }
     
      

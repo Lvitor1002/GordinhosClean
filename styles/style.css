@@ -29,6 +29,7 @@ main{
     
     object-fit: cover; /* Garante que o vídeo preencha o container sem distorção */
     z-index: -1; /* Para ficar atrás do conteúdo */
+    width: 2800px;
 }
 
 .controleCabecalhoGeral{
@@ -368,12 +369,12 @@ li#ctt{
     
 }
 
-/*                                   Depoimentos                                    */
+/*                                   Conteúdo                                    */
 
-.Depoimentos{
+.conteudo{
     background-color:yellow;
     width: 100vw;
-    height: 100vh;
+    height: 150%;
     border-radius: 40px;
     margin-top: 30px;
 
@@ -382,3 +383,43 @@ li#ctt{
     align-items: center;
 
 } 
+.midiaConteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: nowrap;
+
+}
+.midiaConteudo iframe{
+    width: 600px;
+    height: 900px;
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 150px;
+}
+.youtube{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 150px;
+}
+.midiaConteudo i#facebook{
+    font-size: 90px;
+    color: rgb(0, 153, 255);
+}
+.midiaConteudo i#youtube{
+    font-size: 90px;
+    color: rgb(255, 0, 0);
+}
