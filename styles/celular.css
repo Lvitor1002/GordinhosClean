@@ -561,6 +561,10 @@
         width: 370px;
         
     }
+    .primeiroBackground{
+        width: 400px;
+        height: 500px;
+    }
     .midiaConteudo{
         gap: 0;
         flex-direction: column;

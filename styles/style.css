@@ -370,22 +370,27 @@ li#ctt{
 }
 
 /*                                   Conteúdo > ImgBackground                                   */
-.imgBackground{
+.controleBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primeiroBackground{
     margin-top: 40px;
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
     background-position: 100% 60%; /*100% na horizontal e 0% na vertical*/
+
     
 }
-#fundo{
+#img1{
     background-image: url(/image/limpando.png);
 }
 
-.ImgBackground h1{
+.primeiroBackground h1{
     text-align: center;
 }
 
@@ -464,7 +469,7 @@ li#ctt{
 
 /*                                   Conteúdo > ImgBackground2                                   */
 
-.imgBackground2{
+.segundaBackground{
     margin-top: 40px;
     height: 100vh;
     width: 100vw;
@@ -472,9 +477,9 @@ li#ctt{
     background-size: cover;
     background-attachment: fixed;
 
-    background-position: 100% 60%; /*100% na horizontal e 0% na vertical*/
+    background-position: 100% 0%; /*100% na horizontal e 0% na vertical*/
     
 }
 #fundo2{
-    background-image: url(/image/limpando.png);
+    background-image: url(/image/sofa.png)!important;
 }
