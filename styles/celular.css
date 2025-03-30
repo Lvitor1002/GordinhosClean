@@ -616,6 +616,18 @@
     .youtube{
         gap: 0px;
     }
+    .segundaBackground{
+
+        background-attachment: scroll; /* Remove o efeito fixo no celular */
+        background-size: cover;
+        background-position: center center; /* Mantém a imagem bem posicionada */
+        
+    }
+    .segundaBackground h1{
+
+        font-size: 20px;
+        
+    }
    
     
     

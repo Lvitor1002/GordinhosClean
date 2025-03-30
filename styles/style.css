@@ -480,18 +480,34 @@ li#ctt{
 }
 
 /*                                   Conteúdo > ImgBackground2                                   */
-
+#img2{
+    background-image: url(/image/sofa.png)!important;
+}
+.segundoControleBackground{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .segundaBackground{
-    margin-top: 40px;
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: 100% 75%; /*100% na horizontal e 0% na vertical*/
 
-    background-position: 100% 0%; /*100% na horizontal e 0% na vertical*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
-#fundo2{
-    background-image: url(/image/sofa.png)!important;
+.segundaBackground h1{
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px 1px 84px black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
