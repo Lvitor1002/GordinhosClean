@@ -576,11 +576,13 @@
     .midiaConteudo{
         gap: 0;
         flex-direction: column;
+        bottom: 0;
         
 
     }
     .midiaConteudo h1{
         font-size: 40px;
+        top: -10.5px;
 
     }
     .midiaConteudo iframe{

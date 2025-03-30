@@ -424,6 +424,8 @@ li#ctt{
     flex-direction: column;
     gap: 20px;
     flex-wrap: nowrap;
+    position: relative;
+    bottom: 60px;
 
 }
 .midiaConteudo h1{
@@ -432,7 +434,8 @@ li#ctt{
     position: relative;
     text-align: center;
     justify-content: center;
-    color: rgba(0, 0, 0, 0.664);
+    color: rgba(94, 42, 4, 0.767);
+    top: 42px;
     
 
 }
