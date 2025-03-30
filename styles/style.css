@@ -99,7 +99,7 @@ main{
     font-size: 21px;
     font-weight: bold;
 }
-button#iniciar{
+#iniciar{
     position: relative;
     cursor: pointer;
     text-align: center;
