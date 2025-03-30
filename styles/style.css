@@ -399,7 +399,7 @@ li#ctt{
 .primeiroBackground h1 {
     color: white;
     font-size: 40px;
-    text-shadow: 0px 1px 84px black;
+    text-shadow: 0px 1px 49px black;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -435,7 +435,7 @@ li#ctt{
 .midiaConteudo iframe{
     width: 600px;
     height: 900px;
-    border-radius: 40px 40px 0 0;
+    
     padding: 10px;
     text-align: center;
 }
@@ -445,10 +445,12 @@ li#ctt{
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-    gap: 350px;
+    gap: 100px;
+    
 }
 .facebook iframe{
-    height: 1080px;
+    height: 680px;
+    border-radius: 40px 40px 0 0;
 
 }
 .youtube{
@@ -457,7 +459,12 @@ li#ctt{
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-    gap: 350px;
+    gap: 100px;
+    
+}
+.youtube iframe{
+    height: 700px;
+    border-radius: 0 0 40px 40px;
 }
 
 .controleRedes{
