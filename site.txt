@@ -19,3 +19,11 @@ FAQ: Perguntas frequentes que esclarecem dúvidas comuns dos clientes.
 
 desktop: 1800px largura 600px altura
 celular: 1040px largura 600px altura
+
+
+Efeito de click no botão:
+
+/* Efeito de clique */
+.add:active{
+    transform: scale(1.5);
+}
