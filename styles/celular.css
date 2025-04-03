@@ -525,6 +525,9 @@
     .texto h3{
         padding: 10px 7px;
     }
+    #pTextoSobre i{
+        display: block;
+    }
     .controle .primeiroCampoTxt h1{
         width: 360px;
     }
@@ -558,7 +561,7 @@
             top: 60px;
         }
     }
-  
+   
     .sobre .controleSobre{
 
         flex-direction: column;
@@ -580,6 +583,7 @@
     }
     .controleSobre .primeiroCampoSobre #pTextoSobre{
         width: 370px;
+        text-align: center;
         
     }
     .primeiroBackground{
@@ -605,7 +609,7 @@
     }
     .controleRedes{
         left: 35px;
-        gap: 50px;
+        gap: 75px;
         bottom: 120px;
     }
     .midiaConteudo iframe{
