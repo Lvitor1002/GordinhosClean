@@ -220,7 +220,7 @@
     }
     .controleh1 h1{
         top: 70px;
-        font-size: 40px;
+        font-size: 37px;
     }
     
     
@@ -596,6 +596,7 @@
     .primeiroBackground h1{
 
         font-size: 20px;
+        width: 95%;
         
     }
     .midiaConteudo{
@@ -609,9 +610,19 @@
     }
     .controleRedes{
         left: 35px;
-        gap: 75px;
-        bottom: 120px;
+        gap: 70px;
+        bottom: 109px;
     }
+    .midiaConteudo i#instagram{
+        font-size: 60px;
+    }
+    .midiaConteudo i#facebook{
+        font-size: 60px;
+    }
+    .midiaConteudo i#youtube{
+        font-size: 60px;
+    }
+   
     .midiaConteudo iframe{
         width: 340px;
         padding: 10px 0;
