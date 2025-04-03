@@ -118,7 +118,6 @@
     }
     .controleh1 h1{
         font-size: 85px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         top: 50px;
     }
 
@@ -221,6 +220,7 @@
     }
     .controleh1 h1{
         top: 70px;
+        font-size: 40px;
     }
     
     
@@ -530,6 +530,7 @@
     }
     .controle .primeiroCampoTxt h1{
         width: 360px;
+        
     }
     .linha{
         display: none;
@@ -570,7 +571,6 @@
     .controleSobre h1{
         font-size: 40px;
         bottom: 30px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         flex-wrap: nowrap;
         
     }
@@ -646,6 +646,7 @@
     }
     .bloxTexto h1{
         font-size: 55px;
+
         
         
     }
