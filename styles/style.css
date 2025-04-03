@@ -401,9 +401,8 @@ li#ctt{
 
 
 .primeiroBackground h1 {
-    color: white;
-    font-size: 60px;
-    text-shadow: 0px 1px 90px rgb(73, 63, 63);
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 29px;
     text-align: center;
     font-family: "Libre Baskerville", serif;
     width: 95%;
