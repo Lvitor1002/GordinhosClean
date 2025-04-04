@@ -332,11 +332,12 @@
     
     .segundoCampoSobre{
         border-radius: 0 0 8px 8px;
-        width: 80%;
+        width: 95%;
     }
     .sliderCampo img{
         width: 600px;
         height: 600px;
+        
 
         
     }

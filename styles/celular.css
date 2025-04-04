@@ -676,6 +676,20 @@
         margin-bottom: 10px;
         
     }
+    .bloxTexto p{
+        font-size: 20px;
+        text-align: center;
+        padding: 80px 0;
+    }
+    .bloxTexto h2{
+        font-size: 35px;
+        top: 15px;
+    }
+    
+    .blogImg img{
+        transform: scale(1);
+            
+    }
    
     
     
