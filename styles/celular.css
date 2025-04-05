@@ -348,9 +348,9 @@
         font-size: 70px;
     }
     .conteudo{
-       
-        height: 180%;
         
+        height: 180%;
+        margin-top: 0px;
     } 
    
     
@@ -570,12 +570,15 @@
     
     @keyframes flutuar {
         0%{
-            top: 170px;
-        }100%{
             top: 200px;
+        }100%{
+            top: 240px;
         }
     }
-   
+    .curvas{
+        height: 28vh;
+    }
+    
     .sobre .controleSobre{
 
         flex-direction: column;
@@ -583,7 +586,7 @@
     }
     .controleSobre h1{
         font-size: 40px;
-        bottom: 42px;
+        bottom: 62px;
         flex-wrap: nowrap;
         
     }
@@ -597,10 +600,14 @@
     .controleSobre .primeiroCampoSobre #pTextoSobre{
         width: 370px;
         text-align: center;
+        height: 45vh;
         
     }
     .primeiroBackground{
-
+        height: 40vh;
+        
+        position: relative;
+        bottom: 242px;
         background-attachment: scroll; /* Remove o efeito fixo no celular */
         background-size: cover;
         background-position: center center; /* Mantém a imagem bem posicionada */
@@ -611,19 +618,25 @@
         font-size: 17px;
         
     }
+    .controleRedes{
+        left: 40px;
+        gap: 60px;
+        bottom: 95px;
+        
+    }
+    .conteudo{
+        
+        height: 180%;
+        margin-top: 0px;
+        position: relative;
+        bottom: 380px;
+    } 
     .midiaConteudo{
         gap: 0;
         flex-direction: column;
         bottom: 0;
         justify-content: center;
-        
-
-
-    }
-    .controleRedes{
-        left: 40px;
-        gap: 60px;
-        bottom: 109px;
+      
     }
     .midiaConteudo i#instagram{
         font-size: 60px;
@@ -660,7 +673,9 @@
     }
     .blog{
         flex-direction: column;
-    
+        padding-top: 25px;
+        position: relative;
+        bottom: 380px;
     }
     .bloxTexto{
         width: 340px;
@@ -689,6 +704,11 @@
         margin-bottom: 10px;
         
     }
+    .curvasAzul{
+        height: 28vh;
+        position: relative;
+        bottom: 390px;
+    }
     .bloxTexto p{
         font-size: 16px;
         text-align: center;
@@ -698,19 +718,9 @@
         font-size: 35px;
         top: 15px;
     }
+   
     
-    .blogImg img{
-        transform: scale(1);
-            
-    }
-    .faqLogo{
-        margin-top: 100px;
-        background-position: 29% 0%; /*100% na horizontal e 0% na vertical*/
-        border-radius: 0 0 96% 0px;
-        transform: scale(1);
-        z-index: -1;
 
-    }
     .faqLogo h1{
         font-size: 60px;
         left: 20%;
