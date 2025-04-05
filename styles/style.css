@@ -569,15 +569,45 @@ li#ctt{
 
 /*                                   Conteúdo > test                                   */
 
-.test{
+.faq{
     margin-top: 30px;
-    background-color:rgb(145, 8, 8);
     height: 100vh;
     width: 100%;
-    border-radius: 40px;
-
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+#faqImg{
+    background-image: url(/image/GordinhosClean.png);
+}
+.faqLogo{
+    width: 100%; /* Agora ocupa toda a tela */
+    height: 100%; /* Garante que ocupa toda a altura */
+    background-repeat: no-repeat;
+    background-size: cover; /* Garante que a imagem ocupa toda a tela */
+    background-position: 110% 0%; /*100% na horizontal e 0% na vertical*/
+    border-radius: 0 0 96% 0px;
+    z-index: -1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faqLogo h1{
+    font-family: "Libre Baskerville", serif;
+    font-size: 100px;
+    color: rgb(0, 132, 255);
+    position: relative;
+    left: 32%;
+    bottom: 35%;
+}
+.faqLogo p{
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 22%;
+    bottom: 25%;
 }
