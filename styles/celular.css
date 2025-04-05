@@ -1,18 +1,6 @@
 @charset "UTF-8";
 
 
-/*                                    CABEÇALHO                                           */
-
-@media screen and (max-width: 1025px){
-
-    .barraAmarela{
-        width: 74.6%;
-    }
-    .botaoContato button{
-        left: 80px;
-    }
-
-}
 @media screen and (max-width: 1925px){
     .menu ul li{
         position: relative;
@@ -20,257 +8,6 @@
         
     }
 }
-@media screen and (max-width: 1705px){
-    
-    .texto{
-        width: 100%;
-        gap: 10px;
-    }
-    .controle .primeiroCampoTxt #pTexto{
-        width: 100%;
-        
-    }
-    .texto h1{
-        width: 100%;
-        
-    }
-    .texto h3{
-        width: 100%;
-    }
-    
-}
-@media screen and (max-width: 1425px){
-    .barraAmarela{
-        width: 77%;
-    }
-    .botaoContato button{
-        left: 40px;
-        
-    }
-}
-@media screen and (max-width: 1240px){
-    .barraAmarela{
-        width: 77.9%;
-    }
-    .botaoContato button{
-        left: 70px;
-        
-    }
-    .menu ul li{
-        padding: 0 10px;
-        font-size: 20px;
-    }
-    
-}
-@media screen and (max-width: 1320px){
-    .menu ul li{
-        position: relative;
-        left: 50px;
-        
-    }
-}
-@media screen and (max-width: 1110px){
-    .barraAmarela{
-        width: 76%;
-    }
-    .menu ul li{
-        font-size: 18px;
-    }
-    
-    
-}
-@media screen and (max-width: 1030px){
-    .barraAmarela{
-        width: 74%;
-    }
-    .botaoContato button{
-        left: 50px;
-        
-    }
-    #iniciar{
-        left: 10px;
-    }
-    .menu ul li{
-        font-size: 17px;
-    }
-    
-}
-@media screen and (max-width: 1010px){
-    .barraAmarela{
-        width: 73%;
-        left: 190px;
-    }
-    .botaoContato button{
-        display: none;
-        
-    }
-    #iniciar{
-        display: block;
-    }
-    li#ctt{
-        display: block;
-        cursor: pointer;
-        background-color: rgb(0, 153, 255);
-        color: white;
-        border-radius: 18px;
-        font-size: 19px;
-        font-weight: bold;
-    }
-    .controleh1 h1{
-        font-size: 85px;
-        top: 50px;
-    }
-
-    
-}
-@media screen and (max-width: 900px){
-    
-    .menu{
-        display: none;
-        
-    }
-    .bi {
-        width: 46px;
-        font-size: 75px;
-        top: 4px;
-        z-index: 1;
-        display: inline-block; /* Muda para inline-block para ser afetado por text-align */
-        border-radius: 10px;
-        position: relative;
-        left: 230px;
-        cursor: pointer;
-        color: rgb(0, 153, 255);
-    }
-    
-    
-}
-@media screen and (max-width: 870px){ 
-    .barraAmarela{
-        width: 75%;
-        left: 130px;
-    }
-    .bi {
-        left: 200px;
-    }
-    
-   
-    
-}
-@media screen and (max-width: 767px){
-    .barraAmarela{
-        width: 75%;
-    }
-    .logo img{
-        right: 40px;
-        
-    }
-    .bi {
-        left: 190px;
-    }
-    #iniciar{
-        top: 350px;
-    }
-    .controleh1 h1{
-        font-size: 46px!important;
-        top: 0px;
-    }
-    
-   
-    
-}
-@media screen and (max-width: 670px){
-    .barraAmarela{
-        width: 78%;
-        left: 90px;
-    }
-    
-    .bi {
-        left: 150px;
-    }
-    
-    
-    
-}
-@media screen and (max-width: 600px){
-   
-    
-    .bi {
-        left: 128px;
-    }
-    
-    
-}
-@media screen and (max-width: 590px){
-
-    .barraAmarela{
-        width: 71%;
-        left: 90px;
-    }
-   
-   
-    #iniciar{
-        top: 190px;
-        font-size: 25px;
-        padding: 5px 30px;
-        left: -2px;
-    }
-    
-    .bi {
-        left: 100px;
-    }
-    .controleh1 h1{
-        top: 70px;
-        font-size: 37px;
-    }
-    
-    
-    
-}
-@media screen and (max-width: 550px){
-    
-    
-    .bi {
-        left: 90px;
-    }
-    
-    
-}
-@media screen and (max-width: 530px){
-
-    .barraAmarela{
-        width: 71%;
-    }
-    
-    .bi {
-        left: -10px;
-    }
-    
-    
-}
-@media screen and (max-width: 500px){
-
-    .barraAmarela{
-        width: 65%;
-    }
-    
-    .bi {
-        left: -30px;
-    }
-    .teste h1{
-        
-        font-size: 50px;
-        
-    }
-    .bi {
-        left: -50px;
-    }
-
-    
-}
-  
- 
-
-/*                                   CONTEÚDO                                          */
 @media screen and (max-width: 1710px){
     .controle{
         gap: 100px;
@@ -300,6 +37,25 @@
     
     
 }
+@media screen and (max-width: 1705px){
+    
+    .texto{
+        width: 100%;
+        gap: 10px;
+    }
+    .controle .primeiroCampoTxt #pTexto{
+        width: 100%;
+        
+    }
+    .texto h1{
+        width: 100%;
+        
+    }
+    .texto h3{
+        width: 100%;
+    }
+    
+}
 @media screen and (max-width: 1430px){
     .facebook{
         gap: 90px;
@@ -309,6 +65,36 @@
     }
 
     
+    
+}
+@media screen and (max-width: 1425px){
+    .barraAmarela{
+        width: 77%;
+    }
+    .botaoContato button{
+        left: 40px;
+        
+    }
+}
+@media screen and (max-width: 1320px){
+    .menu ul li{
+        position: relative;
+        left: 50px;
+        
+    }
+}
+@media screen and (max-width: 1240px){
+    .barraAmarela{
+        width: 77.9%;
+    }
+    .botaoContato button{
+        left: 70px;
+        
+    }
+    .menu ul li{
+        padding: 0 10px;
+        font-size: 20px;
+    }
     
 }
 @media screen and (max-width: 1230px){
@@ -368,12 +154,108 @@
     
     
 }
+@media screen and (max-width: 1110px){
+    .barraAmarela{
+        width: 76%;
+    }
+    .menu ul li{
+        font-size: 18px;
+    }
+    
+    
+}
+@media screen and (max-width: 1030px){
+    .barraAmarela{
+        width: 74%;
+    }
+    .botaoContato button{
+        left: 50px;
+        
+    }
+    #iniciar{
+        left: 10px;
+    }
+    .menu ul li{
+        font-size: 17px;
+    }
+    
+}
+@media screen and (max-width: 1025px){
 
+    .barraAmarela{
+        width: 74.6%;
+    }
+    .botaoContato button{
+        left: 80px;
+    }
+
+}
+@media screen and (max-width: 1010px){
+    .barraAmarela{
+        width: 73%;
+        left: 190px;
+    }
+    .botaoContato button{
+        display: none;
+        
+    }
+    #iniciar{
+        display: block;
+    }
+    li#ctt{
+        display: block;
+        cursor: pointer;
+        background-color: rgb(0, 153, 255);
+        color: white;
+        border-radius: 18px;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .controleh1 h1{
+        font-size: 85px;
+        top: 50px;
+    }
+
+    
+}
+@media screen and (max-width: 900px){
+    
+    .menu{
+        display: none;
+        
+    }
+    .bi {
+        width: 46px;
+        font-size: 75px;
+        top: 4px;
+        z-index: 1;
+        display: inline-block; /* Muda para inline-block para ser afetado por text-align */
+        border-radius: 10px;
+        position: relative;
+        left: 230px;
+        cursor: pointer;
+        color: rgb(0, 153, 255);
+    }
+    
+    
+}
 @media screen and (max-width: 885px){
     
     .controleRedes{
         left: -200px;
     }
+    
+}
+@media screen and (max-width: 870px){ 
+    .barraAmarela{
+        width: 75%;
+        left: 130px;
+    }
+    .bi {
+        left: 200px;
+    }
+    
+   
     
 }
 @media screen and (max-width: 845px){
@@ -399,7 +281,28 @@
     
     
 }
-
+@media screen and (max-width: 767px){
+    .barraAmarela{
+        width: 75%;
+    }
+    .logo img{
+        right: 40px;
+        
+    }
+    .bi {
+        left: 190px;
+    }
+    #iniciar{
+        top: 350px;
+    }
+    .controleh1 h1{
+        font-size: 46px!important;
+        top: 0px;
+    }
+    
+   
+    
+}
 
 
 @media screen and (max-width: 729px){
@@ -445,6 +348,19 @@
         font-size: 30px;
     }
  
+    
+}
+@media screen and (max-width: 670px){
+    .barraAmarela{
+        width: 78%;
+        left: 90px;
+    }
+    
+    .bi {
+        left: 150px;
+    }
+    
+    
     
 }
 @media screen and (max-width: 660px){
@@ -493,9 +409,33 @@
     
 }
 
-
-
+@media screen and (max-width: 600px){
+    .bi {
+        left: 128px;
+    }
+}
 @media screen and (max-width: 590px){
+    .barraAmarela{
+        width: 71%;
+        left: 90px;
+    }
+    
+    
+    #iniciar{
+        top: 190px;
+        font-size: 25px;
+        padding: 5px 30px;
+        left: -2px;
+    }
+    
+    .bi {
+        left: 100px;
+    }
+    .controleh1 h1{
+        top: 70px;
+        font-size: 37px;
+    }
+    
     body{
         overflow-x: hidden; /* Remove a rolagem lateral */
     }
@@ -527,7 +467,7 @@
     }
     .texto h1{
         padding: 12px;
-
+        
     }
     .texto h3{
         padding: 10px 7px;
@@ -539,7 +479,7 @@
     .linha{
         display: none;
     }
-     .controle .primeiroCampoTxt h3{
+    .controle .primeiroCampoTxt h3{
         width: 360px;
         font-size: 15px;
         color: rgba(0, 0, 0, 0.274);
@@ -554,17 +494,17 @@
         width: 340px;
         left: -99px;
         top: 40px;
-
+        
     }
     .controle img{
         width: 340px;
         left: 2px;
         top: 0px;
         animation: flutuar
-                   2s         /* 2s de duração da animação */
-                   ease-in-out/* início e fim suave, rápido no centro*/
-                   infinite   /* Mantém em loop */
-                   alternate; /* Mantém alternando - ajuda na suavidade */
+        2s         /* 2s de duração da animação */
+        ease-in-out/* início e fim suave, rápido no centro*/
+        infinite   /* Mantém em loop */
+        alternate; /* Mantém alternando - ajuda na suavidade */
         
         transition: 1s;
         
@@ -582,7 +522,7 @@
     }
     
     .sobre .controleSobre{
-
+        
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -592,12 +532,12 @@
         flex-wrap: nowrap;
         
     }
-
+    
     
     .sobre .controleSobre .primeiroCampoSobre{
         width: 400px;
-       
-
+        
+        
     }
     .controleSobre .primeiroCampoSobre #pTextoSobre{
         width: 370px;
@@ -616,7 +556,7 @@
         
     }
     .primeiroBackground h1{
-
+        
         font-size: 12px;
         
     }
@@ -638,7 +578,7 @@
         flex-direction: column;
         bottom: 0;
         justify-content: center;
-      
+        
     }
     .midiaConteudo i#instagram{
         font-size: 60px;
@@ -649,18 +589,18 @@
     .midiaConteudo i#youtube{
         font-size: 60px;
     }
-   
+    
     .midiaConteudo iframe{
         width: 340px;
         padding: 10px 0;
     }
     .facebook iframe{
         height: 580px;
-    
+        
     }
     .youtube iframe{
         height: 580px;
-    
+        
     }
     .facebook{
         justify-content: center;
@@ -682,11 +622,11 @@
     .bloxTexto{
         width: 340px;
         
-   
+        
     }
     .bloxTexto h1{
         font-size: 55px;
-
+        
         
         
     }
@@ -701,7 +641,8 @@
         
     }
     .blogImg img{
-        width: 450px;
+        width: 400px;
+        padding: 0;
         height: 600px;
         margin-bottom: 10px;
         
@@ -736,17 +677,40 @@
         left: -115px;
         white-space: nowrap;
     }
-   
-   
     
     
-     
 }
+@media screen and (max-width: 550px){
+    .bi {
+        left: 90px;
+    }
+}
+@media screen and (max-width: 500px){
+
+    .barraAmarela{
+        width: 65%;
+    }
+    
+    .bi {
+        left: -30px;
+    }
+    .teste h1{
+        
+        font-size: 50px;
+        
+    }
+    .bi {
+        left: -50px;
+    }
+
+    
+}
+  
 @media screen and (max-width: 290px){
     .controle .controleSobre h1{
         width: 310px;
     }
-     .controle .primeiroCampoTxt h3{
+    .controle .primeiroCampoTxt h3{
         width: 255px;
     }
     
@@ -757,6 +721,6 @@
         width: 240px;
         
     }
-     
+    
 }
 
