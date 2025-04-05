@@ -551,20 +551,28 @@
     .controle .primeiroCampoTxt #pTexto{
         width: 340px;
         left: -99px;
-        top: 50px;
+        top: 40px;
 
     }
     .controle img{
         width: 340px;
         left: 2px;
-        top: 200px;
+        top: 0px;
+        animation: flutuar
+                   2s         /* 2s de duração da animação */
+                   ease-in-out/* início e fim suave, rápido no centro*/
+                   infinite   /* Mantém em loop */
+                   alternate; /* Mantém alternando - ajuda na suavidade */
+        
+        transition: 1s;
         
     }
+    
     @keyframes flutuar {
         0%{
-            top: 0;
+            top: 170px;
         }100%{
-            top: 60px;
+            top: 200px;
         }
     }
    
