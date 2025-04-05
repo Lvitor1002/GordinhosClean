@@ -10,11 +10,14 @@
 }
 @media screen and (max-width: 1710px){
     .controle{
-        gap: 100px;
-        flex-wrap: wrap;
-        
-        
+        gap: 0px;
+        flex-wrap: nowrap;
+    
     }
+    .texto{
+        left: 300px;
+    }
+
     .primeiroCampoSobre {
         
         gap: 0px;
@@ -37,26 +40,11 @@
     
     
 }
-@media screen and (max-width: 1705px){
-    
-    .texto{
-        width: 100%;
-        gap: 10px;
-    }
-    .controle .primeiroCampoTxt #pTexto{
-        width: 100%;
-        
-    }
-    .texto h1{
-        width: 100%;
-        
-    }
-    .texto h3{
-        width: 100%;
-    }
-    
-}
+
 @media screen and (max-width: 1430px){
+    .texto{
+        left: 240px;
+    }
     .facebook{
         gap: 90px;
     }
@@ -98,6 +86,14 @@
     
 }
 @media screen and (max-width: 1230px){
+    .texto{
+        left: 150px;
+    }
+    .controle img{
+        height: 70vh;
+        width: 40vw;
+        top: 80px;
+    }
     .blog{
         flex-direction: column;
     
@@ -113,6 +109,15 @@
     
 }
 @media screen and (max-width: 1140px){
+    .texto{
+        left: 100px;
+    }
+    .controle img{
+        height: 60vh;
+        width: 30vw;
+        top: 40px;
+    }
+    
     .sobre{
         margin-top: 50px;
         
@@ -177,6 +182,29 @@
     }
     .menu ul li{
         font-size: 17px;
+    }
+
+    .controle{
+        flex-direction: column;
+    }
+    .texto{
+        left: -80px;
+
+    }
+    .linha{
+        left: -250px;
+
+    }
+    .controle .primeiroCampoTxt #pTexto{
+        width: 80vw;
+        bottom: 10px;
+        left: -80px;
+    }
+    .controle img{
+        height: 90vh;
+        width: 90%;
+        top: 140px;
+        left: 50px;
     }
     
 }
@@ -260,12 +288,12 @@
 }
 @media screen and (max-width: 845px){
     
+    
     .linha{
-        position: relative;
-        top: 78px;
-        color: rgba(4, 155, 255, 0.089);
-        font-size: 40px;
+        left: -250px;
+
     }
+    
     .controle .primeiroCampoTxt h1{
         font-size: 23px;
  
@@ -306,8 +334,26 @@
 
 
 @media screen and (max-width: 729px){
+    
     .texto{
         gap: 0px;
+        left: -90px;
+
+    }
+    .linha{
+        left: -90px;
+
+    }
+    .controle .primeiroCampoTxt #pTexto{
+        width: 80vw;
+        bottom: 10px;
+        left: -90px;
+    }
+    .controle img{
+        height: 90vh;
+        width: 80%;
+        top: 140px;
+        left: 10px;
     }
     .controle .primeiroCampoTxt h1{
         font-size:21px;
@@ -337,16 +383,6 @@
         line-height: 59px;
     }
     
-    
-    
-    .controle img{
-        width: 650px;
-        height: 550px;
-        margin-top: 20px;
-    }
-    .linha{
-        font-size: 30px;
-    }
  
     
 }
@@ -364,6 +400,28 @@
     
 }
 @media screen and (max-width: 660px){
+    .servicos{
+        margin-top: 300px;
+    }
+    .texto{
+        gap: 0px;
+        left: -100px;
+
+    }
+    .linha{
+        display: none;
+
+    }
+    .controle .primeiroCampoTxt #pTexto{
+        left: -100px;
+    }
+    .controle img{
+        height: 80vh;
+        width: 90%;
+    }
+
+
+
     .controle .primeiroCampoTxt h1{
         font-size:20px;
         width: 590px;
@@ -380,19 +438,7 @@
         
     }
     
-    
-    .controle .primeiroCampoTxt #pTexto{
-        line-height:45px;
-        width: 450px;
-        top: 100px;
-        font-size: 16px;
-        
-    
-    }
-    .controle img{
-        top: 130px;
-        
-    }
+
     
     .video-background{
         display: none;
@@ -405,7 +451,7 @@
     }
 
     
- 
+    
     
 }
 
@@ -442,6 +488,29 @@
     .controle{
         bottom: 300px;
     }
+    
+    .controle img{
+        height: 50vh;
+        width: 90%;
+        left: 2px;
+        top: 0px;
+        animation: flutuar
+        2s         /* 2s de duração da animação */
+        ease-in-out/* início e fim suave, rápido no centro*/
+        infinite   /* Mantém em loop */
+        alternate; /* Mantém alternando - ajuda na suavidade */
+        
+        transition: 1s;
+        
+    }
+    
+    @keyframes flutuar {
+        0%{
+            top: 290px;
+        }100%{
+            top: 360px;
+        }
+    }
     .sobreNos{
         margin-top: 0px;
         padding-top: 35px;
@@ -476,9 +545,7 @@
         display: block;
     }
     
-    .linha{
-        display: none;
-    }
+    
     .controle .primeiroCampoTxt h3{
         width: 360px;
         font-size: 15px;
@@ -495,27 +562,6 @@
         left: -99px;
         top: 40px;
         
-    }
-    .controle img{
-        width: 340px;
-        left: 2px;
-        top: 0px;
-        animation: flutuar
-        2s         /* 2s de duração da animação */
-        ease-in-out/* início e fim suave, rápido no centro*/
-        infinite   /* Mantém em loop */
-        alternate; /* Mantém alternando - ajuda na suavidade */
-        
-        transition: 1s;
-        
-    }
-    
-    @keyframes flutuar {
-        0%{
-            top: 200px;
-        }100%{
-            top: 260px;
-        }
     }
     .curvas{
         height: 28vh;
