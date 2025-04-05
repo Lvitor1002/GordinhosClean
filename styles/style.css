@@ -600,7 +600,7 @@ li#ctt{
 }
 
 
-/*                                   Conteúdo > test                                   */
+/*                                   Conteúdo > Curva Azul BB                                   */
 
 #imgCurvasAzulBB{
     background-image: url(/image/imgCurvasAzulBB.png);
@@ -630,12 +630,16 @@ li#ctt{
 .curvasAzulBB p{
     font-family: "Libre Baskerville", serif;
     font-size: 30px;
-    color: #00e8ff;
+    color: #00eaff7a;
     position: relative;
     bottom: 35%;
     text-shadow: 0px 1px 249px rgb(0, 0, 0);
 
 }
+
+
+/*                                   Conteúdo > FAQ                                   */
+
 .faq{
     height: 100vh;
     width: 100%;
@@ -644,4 +648,31 @@ li#ctt{
     align-items: center;
     background-color: #00e8ff;
 
+}
+.faq p{
+    font-size: 50px;
+    padding: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/*                                          RODAPÉ                                           */
+
+footer .pre_rodape{
+    width: 100vw;
+    height: 50vh;
+    background-color: #ffee00a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+footer .rodape{
+    width: 100vw;
+    height: 50vh;
+    background-color: #797102a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
