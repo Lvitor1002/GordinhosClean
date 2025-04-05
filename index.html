@@ -29,7 +29,7 @@
             Seu navegador não suporta vídeos em HTML5.
         </video>
 
-        <div class="controleCabecalhoGeral">
+        <div class="controleCabecalhoGeral" id="inicio">
 
             <div class="barraAmarela"></div> 
 
@@ -40,13 +40,13 @@
         
                 <nav class="menu">
                     <ul>
-                        <li>Início</li><!-- Detalhamento dos serviços oferecidos, como limpeza de sofás, poltronas, cadeiras, tapetes e colchões. -->
-                        <li>Serviços</li>
-                        <li>Sobre Nós</li>
-                        <li>Conteúdo</li>
-                        <li>Blog</li>
-                        <li>FAQ</li>
-                        <li id="ctt">Descubra</li>
+                        <a href="#inicio"><li>Início</li></a> <!-- Detalhamento dos serviços oferecidos, como limpeza de sofás, poltronas, cadeiras, tapetes e colchões. -->
+                        <a href="#idservicos"><li>Serviços</li></a> 
+                        <a href="#idsobreNos"><li>Sobre Nós</li></a> 
+                        <a href="#idconteudo"><li>Conteúdo</li></a> 
+                        <a href="#idblog"><li>Blog</li></a> 
+                        <a href="#imgCurvasAzulBB"><li>FAQ</li></a> 
+                        <a href="#idfaq"><li id="ctt">Descubra</li></a> 
                     </ul>
                 </nav><!-- FIM | menu -->
                 
@@ -54,7 +54,7 @@
                 
     
                 <div class="botaoContato">
-                    <a href="#"><button>Descubra</button></a>
+                    <a href="#idfaq"><button>Descubra</button></a>
                 </div><!-- FIM | botaoContato -->
             </div><!-- FIM | controleCabecalho -->
 
@@ -63,7 +63,7 @@
                 <h1>Surpreenda-se!</h1>
 
                 
-                <a href="https://wa.me/5514988390737" id="iniciar" class="btn" target="_blank">Contato</a>
+                <a href="https://wa.me/5514988390737" id="iniciar" class="btn" target="_blank"><button>Contato</button></a>
 
 
                 
@@ -83,7 +83,7 @@
     <!--                                    CONTEÚDO                                          -->
     <main>
         
-        <section class="servicos">
+        <section class="servicos" id="idservicos">
             <div class="controle">
                 
                 <div class="primeiroCampoTxt">
@@ -114,7 +114,7 @@
         
         <div class="curvas" id="imgCurvas"></div>
 
-        <section class="sobreNos">
+        <section class="sobreNos" id="idsobreNos">
             <div class="sobre">
                 <div class="controleSobre">
                     <h1>Sobre Nós</h1>
@@ -250,7 +250,7 @@
         </section><!-- FIM | sobreNos -->
 
 
-        <section class="controleBackground" >
+        <section class="controleBackground" id="idcontroleBackground">
             
             <div class="primeiroBackground" id="img1">
                 <h1>"Ambientes limpos inspiram mentes tranquilas: comece pelo estofado e sinta a diferença no seu bem-estar."</h1>
@@ -259,7 +259,7 @@
         </section><!-- FIM | controleBackground -->
              
         
-        <section class="conteudo">
+        <section class="conteudo" id="idconteudo">
             
             <div class="midiaConteudo">
                 
@@ -309,7 +309,7 @@
         </section><!-- FIM | conteudo -->
 
 
-        <section class="blog">
+        <section class="blog" id="idblog">
             <div class="bloxTexto">
                 <h1>Você Sabia?</h1>
                 <p>AO FINAL DA HIGIENIZAÇÃO VOCÊ RECEBE O CERTIFICADO, APROVADO PELA ANVISA DE 3 MESES SEGURO CONTRA BACTÉRIAS E FUNGOS!</p>
@@ -329,7 +329,7 @@
             <p>Envie sua mensagem..</p>
         </div>
         
-        <section class="faq">
+        <section class="faq" id="idfaq">
             <div class="faqLogo" id="faqImg">
                 <p>Form</p>
             </div>
@@ -343,7 +343,16 @@
             <p>pré</p>
         </section>
         <section class="rodape">
-            <p>rodapé</p>
+
+            <div class="criador">
+                <p>Site Desenvolvido by <a href="https://github.com/Lvitor1002" target="_blank"><span>LVitor</span></a>.</p>
+            </div>
+
+            <div class="copyright">
+                <p>Privacy Policy
+                    Terms of Service
+                    © 2025 GordinhosClean. All rights reserved.</p>
+            </div>
         </section>
     </footer>
 

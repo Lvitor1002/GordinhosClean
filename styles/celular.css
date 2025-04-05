@@ -740,6 +740,9 @@
         left: -115px;
         white-space: nowrap;
     }
+    footer .rodape .copyright{
+        font-size: 13px;
+    }
     
     
 }
