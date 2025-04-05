@@ -500,7 +500,7 @@
         overflow-x: hidden; /* Remove a rolagem lateral */
     }
     .controle{
-        bottom: 400px;
+        bottom: 300px;
     }
     .sobreNos{
         margin-top: 0px;
@@ -724,13 +724,16 @@
         height: 30vh;
     }
     .curvasAzulBB h1{
-        font-size: 80px;
+        font-size: 65px;
         bottom: 145%;
-        left: 140px;
+        left: 90px;
+        padding: 4px;
+        
     }
     .curvasAzulBB p{
+        font-size: 20px;
         bottom: 75%;
-        left: -155px;
+        left: -115px;
         white-space: nowrap;
     }
    

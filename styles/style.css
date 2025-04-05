@@ -492,22 +492,21 @@ li#ctt{
 .midiaConteudo i#instagram{
     position: relative;
     font-size: 90px;
-    color: rgb(216, 97, 0);
-
+    color: rgba(0, 0, 0, 0.664);
     padding: 10px 0px;
     
 }
 .midiaConteudo i#facebook{
     position: relative;
     font-size: 90px;
-    color: rgb(0, 132, 255);
+    color: rgba(0, 0, 0, 0.664);
     padding: 10px 0px;
     
 }
 .midiaConteudo i#youtube{
     position: relative;
     font-size: 90px;
-    color: rgb(255, 0, 0);
+    color: rgba(0, 0, 0, 0.664);
     padding: 10px 0px;
 }
 
@@ -623,7 +622,10 @@ li#ctt{
     color: rgb(0, 132, 255);
     position: relative;
     bottom: 55%;
+    padding: 10px;
     text-shadow: 0px 1px 249px rgba(0, 0, 0, 0.863);
+    border-radius: 10px;
+    border: .1px solid rgba(0, 132, 255, 0.199);
 }
 .curvasAzulBB p{
     font-family: "Libre Baskerville", serif;
@@ -632,6 +634,7 @@ li#ctt{
     position: relative;
     bottom: 35%;
     text-shadow: 0px 1px 249px rgb(0, 0, 0);
+
 }
 .faq{
     height: 100vh;
