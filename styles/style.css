@@ -603,30 +603,42 @@ li#ctt{
 
 /*                                   Conteúdo > test                                   */
 
-.faq{
-    margin-top: 30px;
-    height: 100vh;
-    width: 100%;
-    margin-bottom: 500px;
+#imgCurvasAzulBB{
+    background-image: url(/image/imgCurvasAzulBB.png);
+}
+.curvasAzulBB{
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover; /* Garante que a imagem ocupa toda a tela */
+    background-position:0% 90%; /*100% na horizontal e 0% na vertical*/
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
-.faqLogo h1{
+.curvasAzulBB h1{
+    text-align: center;
     font-family: "Libre Baskerville", serif;
     font-size: 100px;
     color: rgb(0, 132, 255);
     position: relative;
-    left: 32%;
-    bottom: 35%;
+    bottom: 55%;
+    text-shadow: 0px 1px 249px rgba(0, 0, 0, 0.863);
 }
-.faqLogo p{
+.curvasAzulBB p{
     font-family: "Libre Baskerville", serif;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+    font-size: 30px;
+    color: #00e8ff;
     position: relative;
-    left: 22%;
-    bottom: 25%;
+    bottom: 35%;
+    text-shadow: 0px 1px 249px rgb(0, 0, 0);
+}
+.faq{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00e8ff;
+
 }

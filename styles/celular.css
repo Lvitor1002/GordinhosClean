@@ -499,7 +499,9 @@
     body{
         overflow-x: hidden; /* Remove a rolagem lateral */
     }
-    
+    .controle{
+        bottom: 400px;
+    }
     .sobreNos{
         margin-top: 0px;
         padding-top: 35px;
@@ -508,12 +510,14 @@
     .primeiroCampoTxt{
         position: relative;
         top: 250px;
+        
+        
     }
     .servicos{
         margin-top: 320px;
     }
     .controle .primeiroCampoTxt h1{
-        width: 320px;
+        width: 360px;
         top: 10px;
     }
     .texto{
@@ -531,10 +535,7 @@
     #pTextoSobre i{
         display: block;
     }
-    .controle .primeiroCampoTxt h1{
-        width: 360px;
-        
-    }
+    
     .linha{
         display: none;
     }
@@ -573,7 +574,7 @@
         0%{
             top: 200px;
         }100%{
-            top: 240px;
+            top: 260px;
         }
     }
     .curvas{
@@ -719,22 +720,20 @@
         font-size: 35px;
         top: 15px;
     }
-   
-    
-
-    .faqLogo h1{
-        font-size: 60px;
-        left: 20%;
-        bottom: 50%;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.103);
-        
+    .curvasAzulBB{
+        height: 30vh;
     }
-    .faqLogo p{
-        font-size: 20px;
+    .curvasAzulBB h1{
+        font-size: 80px;
+        bottom: 145%;
+        left: 140px;
+    }
+    .curvasAzulBB p{
+        bottom: 75%;
+        left: -155px;
         white-space: nowrap;
-        left: -20%;
-        bottom: 44%;
     }
+   
    
     
     
