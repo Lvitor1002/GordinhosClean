@@ -87,13 +87,22 @@
 }
 @media screen and (max-width: 1230px){
     .texto{
-        left: 150px;
+        left: 90px;
     }
     .controle img{
-        height: 70vh;
-        width: 40vw;
-        top: 80px;
+        height: 60vh;
+        width: 30vw;
+        top: 40px;
     }
+    
+    .controle .primeiroCampoTxt #pTexto{
+        left: -100px;
+    }
+    .sobre{
+        margin-top: 50px;
+        
+    }
+
     .blog{
         flex-direction: column;
     
@@ -118,9 +127,16 @@
         top: 40px;
     }
     
+    .controle .primeiroCampoTxt #pTexto{
+        left: -100px;
+    }
     .sobre{
         margin-top: 50px;
         
+    }
+    .linha{
+        left: -90px;
+
     }
     .primeiroCampoSobre {
         flex-wrap: wrap;
