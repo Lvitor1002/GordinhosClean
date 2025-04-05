@@ -439,7 +439,6 @@
     .controle img{
         width: 650px;
         height: 550px;
-        border-radius: 60px;
         margin-top: 20px;
     }
     .linha{
@@ -502,20 +501,23 @@
     }
     
     .sobreNos{
-        margin-top: 100px;
+        margin-top: 0px;
+        padding-top: 35px;
     }
     .primeiroCampoTxt{
         position: relative;
-        bottom: 50px;
+        top: 250px;
     }
     .servicos{
         margin-top: 320px;
     }
     .controle .primeiroCampoTxt h1{
         width: 320px;
+        top: 10px;
     }
     .texto{
-        top: 30px;
+        bottom: 50px;
+        left: -99px;
         
     }
     .texto h1{
@@ -548,11 +550,14 @@
     
     .controle .primeiroCampoTxt #pTexto{
         width: 340px;
+        left: -99px;
+        top: 50px;
+
     }
     .controle img{
         width: 340px;
         left: 2px;
-        border-radius: 8px;
+        top: 200px;
         
     }
     @keyframes flutuar {
@@ -570,7 +575,7 @@
     }
     .controleSobre h1{
         font-size: 40px;
-        bottom: 30px;
+        bottom: 42px;
         flex-wrap: nowrap;
         
     }
