@@ -750,11 +750,6 @@
         margin-bottom: 10px;
         
     }
-    .curvasAzul{
-        height: 28vh;
-        position: relative;
-        bottom: 390px;
-    }
     .bloxTexto p{
         font-size: 16px;
         text-align: center;
@@ -764,24 +759,30 @@
         font-size: 35px;
         top: 15px;
     }
+    .curvasAzul{
+        height: 28vh;
+        position: relative;
+        bottom: 390px;
+    }
     .curvasAzulBB{
         height: 30vh;
+        position: relative;
+        bottom: 470px;
     }
-    .curvasAzulBB h1{
-        font-size: 65px;
-        bottom: 145%;
-        left: 90px;
-        padding: 4px;
-        
+    .faq{
+        height: 100vh;
+        position: relative;
+        bottom: 480px;
+    
     }
-    .curvasAzulBB p{
-        font-size: 20px;
-        bottom: 75%;
-        left: -115px;
-        white-space: nowrap;
+    footer{
+        position: relative;
+        bottom: 480px;
     }
     footer .rodape .copyright{
         font-size: 10px;
+        
+        
     }
     .controle_pre_rodape{
         justify-content: center;

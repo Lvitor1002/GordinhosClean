@@ -642,10 +642,10 @@ li#ctt{
 }
 .curvasAzul{
     width: 100vw;
-    height: 40vh;
+    height: 30vh;
     background-repeat: no-repeat;
     background-size: cover; /* Garante que a imagem ocupa toda a tela */
-    background-position:0% 90%; /*100% na horizontal e 0% na vertical*/
+    background-position:0% 70%; /*100% na horizontal e 0% na vertical*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -659,10 +659,10 @@ li#ctt{
 }
 .curvasAzulBB{
     width: 100vw;
-    height: 70vh;
+    height: 26vh;
     background-repeat: no-repeat;
     background-size: cover; /* Garante que a imagem ocupa toda a tela */
-    background-position:0% 90%; /*100% na horizontal e 0% na vertical*/
+    background-position:0% 50%; /*100% na horizontal e 0% na vertical*/
     display: flex;
     justify-content: center;
     align-items: center;
