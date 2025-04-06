@@ -282,6 +282,10 @@
     }
     
     
+    .linha{
+        display: none;
+
+    }
     .logo_redes{
         justify-content: center;
         
@@ -325,10 +329,6 @@
 @media screen and (max-width: 845px){
     
     
-    .linha{
-        left: -250px;
-
-    }
     
     .controle .primeiroCampoTxt h1{
         font-size: 23px;
@@ -402,10 +402,7 @@
         left: -90px;
 
     }
-    .linha{
-        left: -90px;
-
-    }
+    
     .controle .primeiroCampoTxt #pTexto{
         width: 80vw;
         bottom: 10px;
@@ -470,10 +467,7 @@
         left: -100px;
 
     }
-    .linha2{
-        display: none;
-
-    }
+    
     .controle .primeiroCampoTxt #pTexto{
         left: -100px;
     }
@@ -812,7 +806,7 @@
     
     
     }
-    .linha2{
+    .linhaDois{
         display: block;
         font-size: 20px;
         top: -20px;
