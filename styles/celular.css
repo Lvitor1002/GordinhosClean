@@ -811,11 +811,7 @@
     
     }
     .linhaDois{
-        width: 80%;
-        display: block;
-        font-size: 20px;
-        top: -20px;
-        left: -30px;
+        display: none;
     }
     .controle_icon{
         justify-content: center;
