@@ -797,21 +797,39 @@ footer .pre_rodape{
 }   
 .logo_redes img{
     width: 150px;
+    transition: all 2s;
+    border-radius: 100px;
 }   
+.logo_redes img:hover{
+    transform: scale(1.05);
+    transition-duration: 3s;
+    box-shadow:  0px 0px 172px -17px rgb(1, 113, 204);
+    
+}   
+
 .controleRedes2 a{
     text-decoration: none;
 }
 .controleRedes2 i{
     font-size: 60px;
     padding: 10px;
+    border-radius: 10px;
+    transition: all 2s;
+
+}
+.controleRedes2 i:hover{
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition-duration: 3s;
 
 }
 .controleRedes2 #ins{
+    
     color: rgb(255, 115, 0);
 }
 .controleRedes2 #you{
     color: rgb(255, 0, 0);
     font-size: 65px;
+    padding: 5px;
 }
 .controle_icon{
     width: 87%;
@@ -825,11 +843,21 @@ footer .pre_rodape{
     color: rgb(255, 255, 255);
     font-size: 30px;
     padding: 5px;
+    position: relative;
+    top: 3px;
 }
 .controle_icon a{
-    color: black;
+    color: rgba(0, 0, 0, 0.637);
+    font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    transition: all 2s;
+}
+.controle_icon a:hover{
+    color: #057db1;
+    transform: scale(1.05);
+    transition-duration: 0s;
+    
 }
 .controle_icon #wpp{
     color: rgb(3, 189, 3);
@@ -837,7 +865,12 @@ footer .pre_rodape{
     padding: 5px;
     position: relative;
     bottom: 25px;
-    
+    transition: all 2s;
+}
+.controle_icon #wpp:hover{
+    transform: scale(1.05);
+    transition-duration: 0s;
+    text-shadow: 10px 10px 100px rgb(1, 204, 1);
 }
 
 
