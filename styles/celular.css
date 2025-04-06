@@ -795,7 +795,11 @@
     }
     #ajuda{
         position: relative;
-        right: 20px;
+        right: 22px;
+    }
+    #impor{
+        position: relative;
+        right: 12px;
     }
     .caixas ul a{
         text-decoration: none!important;
