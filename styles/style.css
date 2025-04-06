@@ -649,6 +649,7 @@ li#ctt{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius:0px 0px 283% 125%;
 }
 
 
@@ -666,6 +667,7 @@ li#ctt{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius:0px 24% 0 0;
 }
 .curvasAzulBB h1{
     text-align: center;

@@ -763,6 +763,7 @@
         height: 28vh;
         position: relative;
         bottom: 390px;
+        border-radius:0px 0px 63% 0px;
     }
     .curvasAzulBB{
         height: 30vh;
