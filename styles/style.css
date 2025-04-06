@@ -744,7 +744,7 @@ footer .pre_rodape{
 }
 
 .caixas ul a{
-    text-decoration: 0;
+    text-decoration: none;
 }
 
 .caixas ul li{
@@ -759,15 +759,87 @@ footer .pre_rodape{
 }
 
 
-footer .rodape{
+.rodape{
     width: 100vw;
-    height: 50vh;
+    height: 50%;
     background-color: #9e9402a8;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
 }
+.contate{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}   
+.linha2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color:rgba(255, 255, 255, 0.438);
+    position: relative;
+    top: -54px;
+    
+}   
+.logo_redes{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}   
+.logo_redes img{
+    width: 150px;
+}   
+.controleRedes2 i{
+    font-size: 60px;
+    padding: 10px;
+
+}
+.controleRedes2 #ins{
+    color: rgb(255, 115, 0);
+}
+.controleRedes2 #you{
+    color: rgb(255, 0, 0);
+    font-size: 65px;
+}
+.controle_icon{
+    width: 87%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.controle_icon #email{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 5px;
+}
+.controle_icon a{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+}
+.controle_icon #wpp{
+    color: rgb(3, 189, 3);
+    font-size: 70px;
+    padding: 5px;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+
+
+
 footer .rodape .criador{
     width: 100vw;
     height: 4vh;

@@ -282,6 +282,26 @@
     }
     
     
+    .logo_redes{
+        justify-content: center;
+        
+    }
+    .logo_redes img{
+        left: -60px;
+    }   
+    .controleRedes2 i{
+        left: -60px;
+    
+    }
+    .controle_icon #email{
+        left: -60px;
+    }
+    .controle_icon #wpp{
+        
+        left: -60px;
+    }
+    
+    
 }
 @media screen and (max-width: 885px){
     
@@ -322,6 +342,32 @@
     .controle .primeiroCampoTxt #h3Gordin{
         font-size: 20px;
     }
+    
+    .contate{
+        justify-content: center;
+        flex-direction: column;
+     
+    } 
+    .logo_redes{
+        justify-content: center;
+        flex-direction: column;
+        
+    } 
+     
+    .controleRedes2 i{
+        left: -16px;
+        margin: 0 19px;
+    
+    }
+    .controle_icon #email{
+        left: 5px;
+    }
+    .controle_icon #wpp{
+        top: -20px;
+        
+    }
+    
+    
     
     
 }
@@ -424,7 +470,7 @@
         left: -100px;
 
     }
-    .linha{
+    .linha2{
         display: none;
 
     }
@@ -756,6 +802,34 @@
     #ajuda{
         position: relative;
         right: 20px;
+    }
+    .caixas ul a{
+        text-decoration: none!important;
+    }
+    .controleRedes2 i{
+        left: -16px;
+        margin: 0 15px;
+    
+    
+    }
+    .linha2{
+        display: block;
+        font-size: 20px;
+        top: -20px;
+        left: 16px;
+    }
+    .controle_icon{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .controle_icon #email{
+        left: 5px;
+    }
+    .controle_icon #wpp{
+        top: 0px;
+        left: -10px;
+        
     }
     
     
