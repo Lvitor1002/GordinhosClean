@@ -483,7 +483,7 @@
     }
     
     
-    #iniciar{
+    #iniciar button{
         top: 190px;
         font-size: 25px;
         padding: 5px 30px;
@@ -743,6 +743,21 @@
     footer .rodape .copyright{
         font-size: 10px;
     }
+    .controle_pre_rodape{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .caixas{
+        align-items: center;
+        width: 400px;
+        height: 250px;
+        padding: 0px;
+    }
+    #ajuda{
+        position: relative;
+        right: 20px;
+    }
+    
     
     
 }

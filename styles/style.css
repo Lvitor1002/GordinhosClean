@@ -712,14 +712,53 @@ li#ctt{
 
 footer .pre_rodape{
     width: 100vw;
-    height: 50vh;
+    height: 50%;
     background-color: #ffee00a8;
     display: flex;
     justify-content: center;
     align-items: center;
 
-
 }
+.controle_pre_rodape{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+}
+.caixas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.caixas ul p{
+    font-family: "Libre Baskerville", serif;
+    padding-bottom: 25px;
+}
+
+.caixas ul a{
+    text-decoration: 0;
+}
+
+.caixas ul li{
+    list-style-type: none; /* Remove os marcadores padrão */
+    font-size: 15px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.438);
+}
+.caixas ul li:hover{
+    color: #504b06;
+    transform: scale(1.08);
+}
+
+
 footer .rodape{
     width: 100vw;
     height: 50vh;
