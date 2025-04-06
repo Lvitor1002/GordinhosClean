@@ -798,6 +798,9 @@ footer .pre_rodape{
 .logo_redes img{
     width: 150px;
 }   
+.controleRedes2 a{
+    text-decoration: none;
+}
 .controleRedes2 i{
     font-size: 60px;
     padding: 10px;
