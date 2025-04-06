@@ -769,6 +769,7 @@
         height: 30vh;
         position: relative;
         bottom: 470px;
+        border-radius:0px 0 0 0;
     }
     .faq{
         height: 100vh;
