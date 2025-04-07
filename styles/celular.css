@@ -543,13 +543,14 @@
     }
     .controle{
         bottom: 300px;
+        left: 8px;
         
     }
     
     .controle img{
         height: 50vh;
         width: 90%;
-        left: 2px;
+        left: -30px;
         top: 0px;
         margin-top: 350px;
         animation: flutuar
@@ -557,7 +558,6 @@
         ease-in-out/* início e fim suave, rápido no centro*/
         infinite   /* Mantém em loop */
         alternate; /* Mantém alternando - ajuda na suavidade */
-        
         transition: 1s;
 
     }
@@ -566,7 +566,7 @@
         0%{
             right: 0px;
         }100%{
-            left: 42px;
+            left: 35px;
         }
     }
     .sobreNos{
