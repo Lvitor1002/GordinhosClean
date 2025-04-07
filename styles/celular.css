@@ -543,14 +543,14 @@
     }
     .controle{
         bottom: 300px;
-        left: 8px;
+        left: 6.5px;
         
     }
     
     .controle img{
         height: 50vh;
         width: 90%;
-        left: -30px;
+        left: -35px;
         top: 0px;
         margin-top: 350px;
         animation: flutuar
