@@ -543,6 +543,7 @@
     }
     .controle{
         bottom: 300px;
+        
     }
     
     .controle img{
@@ -550,6 +551,7 @@
         width: 90%;
         left: 2px;
         top: 0px;
+        margin-top: 350px;
         animation: flutuar
         2s         /* 2s de duração da animação */
         ease-in-out/* início e fim suave, rápido no centro*/
@@ -557,29 +559,32 @@
         alternate; /* Mantém alternando - ajuda na suavidade */
         
         transition: 1s;
-        
+
     }
     
     @keyframes flutuar {
         0%{
-            top: 290px;
+            right: 0px;
         }100%{
-            top: 360px;
+            left: 36px;
         }
     }
     .sobreNos{
         margin-top: 0px;
         padding-top: 35px;
         padding-bottom: 20px;
+        position: relative;
+        bottom: 300px;
+        
     }
     .primeiroCampoTxt{
         position: relative;
         top: 250px;
         
-        
     }
     .servicos{
-        margin-top: 320px;
+        margin-top: 300px;
+        
     }
     .controle .primeiroCampoTxt h1{
         width: 360px;
@@ -622,6 +627,8 @@
     }
     .curvas{
         height: 28vh;
+        position: relative;
+        bottom: 300px;
     }
     
     .sobre .controleSobre{
@@ -652,7 +659,7 @@
         height: 40vh;
         
         position: relative;
-        bottom: 242px;
+        bottom: 548px;
         background-attachment: scroll; /* Remove o efeito fixo no celular */
         background-size: cover;
         background-position: center center; /* Mantém a imagem bem posicionada */
@@ -663,10 +670,11 @@
         font-size: 12px;
         
     }
+    
     .controleRedes{
         left: 40px;
         gap: 60px;
-        bottom: 95px;
+        bottom: 105px;
         
     }
     .conteudo{
@@ -674,7 +682,7 @@
         height: 180%;
         margin-top: 0px;
         position: relative;
-        bottom: 380px;
+        bottom: 680px;
     } 
     .midiaConteudo{
         gap: 0;
@@ -682,15 +690,17 @@
         bottom: 0;
         justify-content: center;
         
+        
     }
     .midiaConteudo i#instagram{
         font-size: 60px;
+        
     }
     .midiaConteudo i#facebook{
         font-size: 60px;
     }
     .midiaConteudo i#youtube{
-        font-size: 60px;
+        font-size: 70px;
     }
     
     .midiaConteudo iframe{
@@ -715,12 +725,13 @@
         gap: 0px;
         padding: 0px;
         margin: 0;
+        
     }
     .blog{
         flex-direction: column;
         padding-top: 25px;
         position: relative;
-        bottom: 380px;
+        bottom: 690px;
     }
     .bloxTexto{
         width: 340px;
@@ -762,24 +773,24 @@
     .curvasAzul{
         height: 28vh;
         position: relative;
-        bottom: 390px;
+        bottom: 760px;
         border-radius:0px 0px 63% 0px;
     }
     .curvasAzulBB{
         height: 30vh;
         position: relative;
-        bottom: 470px;
+        bottom: 820px;
         border-radius:0px 0 0 0;
     }
     .faq{
         height: 100vh;
         position: relative;
-        bottom: 480px;
+        bottom: 900px;
     
     }
     footer{
         position: relative;
-        bottom: 480px;
+        bottom: 900px;
     }
     footer .rodape .copyright{
         font-size: 10px;
