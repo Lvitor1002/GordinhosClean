@@ -192,7 +192,7 @@ li#ctt{
     height: 100%;
     position: relative;
     bottom: 200px;
-    right: 15px;
+    right: 100px;
     
     
 }
@@ -209,6 +209,7 @@ li#ctt{
     position: relative;
     left: 100px;
     z-index: 2;
+    
     
     
     
@@ -297,8 +298,8 @@ li#ctt{
 
 .controle img{
     position: relative;
-    height: 70vh;
-    width: 70vw;
+    height: 80vh;
+    width: 50%;
     top: 170px;
     left: 100px;
     z-index: 3; /* menor que o texto */
@@ -316,7 +317,7 @@ li#ctt{
 
 @keyframes flutuar {
     0%{
-        top: 150px;
+        top: 160px;
     }100%{
         top: 200px;
     }
