@@ -808,19 +808,9 @@
         height: 90vh;
         position: relative;
         bottom: 900px;
-        background-color: red;
-        width: 98%;
+        
         
     
-    }
-    footer{
-        position: relative;
-        bottom: 900px;
-    }
-    footer .rodape .copyright{
-        font-size: 10px;
-        
-        
     }
     .controle_pre_rodape{
         justify-content: center;
@@ -846,8 +836,8 @@
     .controleRedes2 i{
         left: -16px;
         margin: 0 15px;
-    
-    
+        
+        
     }
     .linhaDois{
         display: none;
@@ -872,8 +862,7 @@
         font-size: 18px;
     }
     .formulario{
-        height: 100vh;
-        
+        background-color: red;
         
         
     }
@@ -913,16 +902,25 @@
     .formulario form input{
         position: relative;
         bottom: 5%;
-    
+        
     }
     .formulario form textarea{
         padding-bottom: 250px;
-    
+        
     }
     .btnEnviar button{
         bottom: 135%;
         font-size: 22px;
         color: rgba(0, 0, 0, 0.603);
+    }
+    footer{
+        position: relative;
+        bottom: 900px;
+    }
+    footer .rodape .copyright{
+        font-size: 10px;
+        
+        
     }
     
     
@@ -934,7 +932,7 @@
     }
 }
 @media screen and (max-width: 500px){
-
+    
     .barraAmarela{
         width: 65%;
     }
