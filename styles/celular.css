@@ -808,6 +808,9 @@
         height: 90vh;
         position: relative;
         bottom: 900px;
+        background-color: red;
+        width: 355px;
+        left: 4px;
         
     
     }
@@ -872,6 +875,8 @@
     .formulario{
         height: 100vh;
         
+        
+        
     }
     .formulario h1{
         font-family: "Libre Baskerville", serif;
@@ -902,6 +907,7 @@
         padding: 10px;
         gap: 10%;
         height: 550px;
+        
         
         
     }
