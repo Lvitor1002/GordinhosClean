@@ -17,6 +17,7 @@
 
     
     <link rel="stylesheet" href="styles/carrossel.css">
+   
     <script src="menu.js" defer></script>
     <script src="formulario.js" defer></script>
 
@@ -334,7 +335,9 @@
                 <h1>Prezado cliente, estamos à disposição.</h1>
                 <h2>Envie-nos a sua mensagem.</h2>
                 <form id="conteudoFormulario" action="form">
-                    <input type="text" placeholder="Seu nome" required>
+                    
+                    <input type="text" name="nome" placeholder="Seu nome" required>
+                    
                     <textarea name="mensagem" id="idtexto" placeholder="Sua mensagem" required maxlength="1000"></textarea>
 
                     <div class="btnEnviar">
