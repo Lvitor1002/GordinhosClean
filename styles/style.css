@@ -378,7 +378,7 @@ li#ctt{
     
 }
 .controleSobre h1{
-    font-size: 70px;
+    font-size: 100px;
     position: relative;
     text-align: center;
     justify-content: center;
@@ -722,6 +722,73 @@ li#ctt{
     padding: 100px;
     border-radius: 10px;
     background-color: white;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    
+    
+}
+.formulario form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    border: .5px solid #03808b81;
+    gap: 10%;
+}
+.formulario form input{
+    padding: 30px 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 22px;
+    background-color: white;
+    color: black;
+    outline: none; /* tira o contorno */
+    position: relative;
+    bottom: 7%;
+
+}
+.formulario form textarea{
+    padding: 10px;
+    padding-bottom: 300px;
+    font-size: 22px;
+    border: none;
+    resize: none; /* Para a caixa de texo não redimensionar */
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    outline: none; /* tira o contorno */
+    position: relative;
+    bottom: 10%;
+
+}
+.btnEnviar button{
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    position: relative;
+    bottom: 200%;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /*                                          RODAPÉ                                           */
