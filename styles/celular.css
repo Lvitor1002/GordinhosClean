@@ -749,12 +749,13 @@
         
     }
     .bloxTexto h1{
-        font-size: 55px;
-        
+        font-size: 45px;
+        margin-bottom: 10px;
         
         
     }
     .bloxTexto p{
+        margin: 20px 0;
         font-size: 25px;
         
         
@@ -777,7 +778,7 @@
         padding: 10px 2px;
     }
     .bloxTexto h2{
-        font-size: 35px;
+        font-size: 20px;
         top: 15px;
     }
     .curvasAzul{
