@@ -586,6 +586,7 @@
         position: relative;
         bottom: 300px;
         
+        
     }
     .primeiroCampoTxt{
         position: relative;
@@ -599,14 +600,17 @@
     .controle .primeiroCampoTxt h1{
         width: 360px;
         top: 10px;
+        
     }
     .texto{
         bottom: 50px;
         left: -99px;
         
+        
     }
     .texto h1{
         padding: 12px;
+        
         
     }
     .texto h3{
@@ -646,6 +650,7 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
+    
     .controleSobre h1{
         font-size: 40px;
         bottom: 62px;
@@ -742,6 +747,7 @@
         padding-top: 25px;
         position: relative;
         bottom: 690px;
+        
     }
     .bloxTexto{
         width: 340px;
@@ -753,15 +759,18 @@
         margin-bottom: 10px;
         
         
+        
     }
     .bloxTexto p{
         margin: 20px 0;
         font-size: 25px;
         
         
+        
     }
     .bloxTexto h2{
         top: 0px;
+        
         
         
     }
@@ -770,6 +779,7 @@
         padding: 0;
         height: 600px;
         margin-bottom: 10px;
+        
         
     }
     .bloxTexto p{
@@ -780,6 +790,7 @@
     .bloxTexto h2{
         font-size: 20px;
         top: 15px;
+        
     }
     .curvasAzul{
         height: 28vh;
@@ -794,9 +805,10 @@
         border-radius:0px 0 0 0;
     }
     .faq{
-        height: 100vh;
+        height: 90vh;
         position: relative;
         bottom: 900px;
+        
     
     }
     footer{
@@ -850,7 +862,7 @@
     }
     .controle_icon #wpp{
         top: 0px;
-        left: -10px;
+        left: -15px;
         
     }
     .controle_icon a{
@@ -863,13 +875,14 @@
     }
     .formulario h1{
         font-family: "Libre Baskerville", serif;
-        width: 360px;
+        width: 350px;
         white-space: nowrap;
         font-size: 18px;
         text-align: center;
         color: #015961;
         padding: 0px;
         margin: 0;
+        
         
     }
     .formulario h2{
@@ -881,12 +894,14 @@
         padding: 10px 0;
         margin: 0;
         
+        
     }
     .formulario form{
         align-items: center;
-        width: 360px;
+        width: 350px;
         padding: 10px;
         gap: 10%;
+        
         
     }
     .formulario form input{
