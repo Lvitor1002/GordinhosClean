@@ -896,7 +896,7 @@
     }
     .formulario form input{
         position: relative;
-        bottom: 5%;
+        bottom: 0%;
         
     }
     .formulario form textarea{
@@ -904,10 +904,10 @@
         
     }
     .btnEnviar{
-        
+        position: relative;
+        bottom: 20px;
     }
     .btnEnviar button{
-        bottom: 135%;
         font-size: 22px;
         color: rgba(0, 0, 0, 0.603);
     }
