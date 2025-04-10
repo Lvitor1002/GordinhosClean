@@ -853,7 +853,7 @@
     .formulario{
         height: 100vh;
     }
-    .formulario h1{
+    .formulario h1,h2{
         width: 390px;
         font-size: 22px;
         text-align: center;
@@ -863,7 +863,7 @@
     .formulario form{
         align-items: center;
         width: 360px;
-        padding: 10px 0;
+        padding: 10px;
         gap: 10%;
         
     }
@@ -878,6 +878,8 @@
     }
     .btnEnviar button{
         bottom: 135%;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.603);
     }
     
     
