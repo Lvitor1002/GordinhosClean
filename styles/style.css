@@ -740,11 +740,12 @@ li#ctt{
     align-items: flex-start;
     flex-direction: column;
     width: 40vw;
-    height: 90%;
+    height: 100%;
     border-radius: 10px;
     padding: 10px;
     border: .5px solid #03808b81;
     gap: 10%;
+    
    
 }
 .formulario form input{
@@ -757,7 +758,8 @@ li#ctt{
     color: black;
     outline: none; /* tira o contorno */
     position: relative;
-    bottom: 7%;
+    bottom: 2%;
+    
 
 }
 .formulario form textarea{
@@ -772,7 +774,15 @@ li#ctt{
     color: black;
     outline: none; /* tira o contorno */
     position: relative;
-    bottom: 10%;
+    bottom: 5%;
+
+}
+.btnEnviar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 .btnEnviar button{
@@ -783,13 +793,8 @@ li#ctt{
     background-color: white;
     color: black;
     font-size: 28px;
-    position: relative;
-    bottom: 150%;
     cursor: pointer;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
 
