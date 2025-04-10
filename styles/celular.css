@@ -854,8 +854,8 @@
         height: 100vh;
     }
     .formulario h1{
-        width: 360px;
-        font-size: 20px;
+        width: 390px;
+        font-size: 22px;
         text-align: center;
         color: #027e8a;
         padding: 10px;
@@ -870,7 +870,6 @@
     .formulario form input{
         position: relative;
         bottom: 5%;
-        padding: 10px 10px;
     
     }
     .formulario form textarea{
@@ -878,7 +877,7 @@
     
     }
     .btnEnviar button{
-        bottom: 120%;
+        bottom: 135%;
     }
     
     
