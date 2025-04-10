@@ -844,12 +844,18 @@
         flex-direction: column;
     }
     .controle_icon #email{
-        left: 5px;
+        left: 12px;
+        font-size: 18px;
+        
     }
     .controle_icon #wpp{
         top: 0px;
         left: -10px;
         
+    }
+    .controle_icon a{
+        color: rgba(0, 0, 0, 0.637);
+        font-size: 18px;
     }
     .formulario{
         height: 100vh;
