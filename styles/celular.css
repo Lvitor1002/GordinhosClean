@@ -561,6 +561,16 @@
         transition: 1s;
 
     }
+    .controle img:hover{
+        cursor: none;
+        transform: scale(1);
+        
+    }
+    .controle img:active{
+        transition-duration: 1s;
+        transform: scale(1);
+        
+    }
     
     @keyframes flutuar {
         0%{
