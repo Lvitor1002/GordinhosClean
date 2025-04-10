@@ -192,7 +192,7 @@ li#ctt{
     height: 100%;
     position: relative;
     bottom: 200px;
-    right: 100px;
+    right: 120px;
     
     
 }
@@ -298,8 +298,8 @@ li#ctt{
 
 .controle img{
     position: relative;
-    height: 80vh;
-    width: 50%;
+    height: 70vh;
+    width: 45%;
     top: 170px;
     left: 100px;
     z-index: 3; /* menor que o texto */
@@ -312,6 +312,16 @@ li#ctt{
     alternate; /* Mantém alternando - ajuda na suavidade */
     
     transition: 1s;
+    
+}
+.controle img:hover{
+    cursor: pointer;
+    transform: scale(.95);
+    
+}
+.controle img:active{
+    transition-duration: 1s;
+    transform: scale(.70);
     
 }
 
@@ -347,7 +357,7 @@ li#ctt{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:#ffee00;
+    background-color:#fff9a9;
     width: 100vw;
     height: 100%;
     
@@ -475,7 +485,7 @@ li#ctt{
 /*                                   Conteúdo > conteudo                                   */
 
 .conteudo{
-    background-color:#00b2ff;
+    background-color:#a0e2ff;
     width: 100vw;
     height: 150%;
     border-radius: 40px 40px 0 0;
@@ -572,7 +582,7 @@ li#ctt{
 
 
 .blog{
-    background-color:#00b2ff;
+    background-color:#a0e2ff;
     width: 100vw;
     height: 100%;
    
@@ -595,7 +605,7 @@ li#ctt{
     
 }
 .bloxTexto h1{
-    text-shadow: 0px 1px 249px rgba(0, 0, 0, 0.315);
+    text-shadow: 0px 1px 249px rgba(0, 0, 0, 0.671);
     color: yellow;
     font-size: 120px;
     text-align: center;
@@ -606,7 +616,7 @@ li#ctt{
     
 }
 .bloxTexto p{
-    color: rgba(255, 255, 255, 0.582);
+    color: rgba(0, 0, 0, 0.582);
     font-size: 30px;
     text-align: center;
     line-height: 50px;
@@ -617,13 +627,13 @@ li#ctt{
     
 }
 .bloxTexto h2{
-    color: rgb(241, 241, 127);
+    color: rgb(255, 255, 0);
     font-size: 30px;
     text-align: center;
     position: relative;
     top: 95px;
     font-family: "Libre Baskerville", serif;
-    text-shadow: 0px 1px 249px rgba(0, 0, 0, 0.315);
+    text-shadow: 0px 1px 249px rgb(0, 0, 0);
     
 }
 .blogImg{
@@ -704,7 +714,7 @@ li#ctt{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #00e8ff;
+    background-color: #b2f6fc;
 
 }
 .faq p{
