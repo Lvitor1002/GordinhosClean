@@ -850,22 +850,35 @@
         left: -10px;
         
     }
+    .formulario{
+        height: 100vh;
+    }
+    .formulario h1{
+        width: 360px;
+        font-size: 20px;
+        text-align: center;
+        color: #027e8a;
+        padding: 10px;
+    }
     .formulario form{
         align-items: center;
-        width: 380px;
-        height: 100%;
+        width: 360px;
+        padding: 10px 0;
+        gap: 10%;
+        
     }
     .formulario form input{
         position: relative;
         bottom: 5%;
+        padding: 10px 10px;
     
     }
     .formulario form textarea{
-        padding-bottom: 280px;
+        padding-bottom: 250px;
     
     }
     .btnEnviar button{
-        bottom: 140%;
+        bottom: 120%;
     }
     
     
