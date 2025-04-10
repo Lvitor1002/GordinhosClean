@@ -306,7 +306,7 @@
     }
 
     .naveManual, .naveAuto{
-        margin-top: 109%;
+        margin-top: 105%;
         padding: 0px;
         transform: scale(.7);
         width: 80%;
@@ -317,6 +317,9 @@
     }
     .segundoCampoSobre{
         width: 80%;
+    }
+    .controleSobre h1{
+        font-size: 52px;
     }
      
 }
@@ -337,9 +340,6 @@
     .sliderCampo img{
         width: 600px;
         height: 600px;
-        
-
-        
     }
 }
 
