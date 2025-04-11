@@ -205,6 +205,7 @@ li#ctt{
     flex-direction: column;
     flex-wrap: nowrap;
     width: 40%;
+    
 
     position: relative;
     left: 100px;
@@ -419,7 +420,7 @@ li#ctt{
 
 .controleSobre .primeiroCampoSobre #pTextoSobre{
     text-align: center;
-    line-height: 35px;
+    line-height: 39px;
     text-indent: 20px;
     border-radius: 20px 20px 0 0 ;
     font-size: 23px;
@@ -624,6 +625,7 @@ li#ctt{
     padding: 90px 0;
     border-radius: 20px;
     box-shadow: 0px 0px 41px -23px blue;
+    font-family: "Libre Baskerville", serif;
     
     
 }
@@ -723,6 +725,7 @@ li#ctt{
     padding: 100px;
     border-radius: 10px;
     background-color: white;
+    
 }
 .formulario{
     display: flex;
