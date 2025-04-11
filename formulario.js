@@ -16,19 +16,23 @@ formulario.addEventListener("submit",function(evento){
     campoMensagem.style.border = ""
 
     if (nome === "" || !/^[A-Za-zÀ-ÿ\s]+$/.test(nome)) {
+
         formularioValido = false;
+
         alert("Por gentileza, digite um nome válido (somente letras).");
         campoNome.style.border = "2px solid red"
     }
 
     if (mensagem === "") {
+
         formularioValido = false;
+
         alert("Por gentileza, escreva sua mensagem.");
         campoMensagem.style.border = "2px solid red"
     }
 
     if (formularioValido) {
-        
+        alert(">Mensagem enviada com sucesso.")
         formulario.submit(); // envia se tudo estiver certo
     }
 });
