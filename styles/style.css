@@ -827,6 +827,11 @@ li#ctt{
     transition-duration: 0s;
     
 }
+.btnEnviar button:active{
+    transform: scale(1.5);
+    transition-duration: .5s;
+    
+}
 
 /*                                          RODAPÉ                                           */
 
