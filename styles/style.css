@@ -418,11 +418,11 @@ li#ctt{
 }
 
 .controleSobre .primeiroCampoSobre #pTextoSobre{
-    text-align: justify;
-    line-height: 30px;
+    text-align: center;
+    line-height: 35px;
     text-indent: 20px;
     border-radius: 20px 20px 0 0 ;
-    font-size: 16px;
+    font-size: 23px;
     width: 60%;
     height: 25vh;
     padding: 7px 8px;
@@ -431,6 +431,7 @@ li#ctt{
     border: .5px solid rgba(255, 255, 255, 0.116);
     transition: all 2s;
     background-color: rgb(255, 255, 255);
+    font-family: "Libre Baskerville", serif;
     
 }
 .controleSobre .primeiroCampoSobre #pTextoSobre:hover{
@@ -782,7 +783,7 @@ li#ctt{
 }
 .formulario form textarea{
     padding: 10px;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
     font-size: 22px;
     border: none;
     resize: none; /* Para a caixa de texo não redimensionar */
@@ -801,7 +802,8 @@ li#ctt{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    position: relative;
+    bottom: 50px;
 
 }
 .btnEnviar button{
@@ -811,10 +813,19 @@ li#ctt{
     border-radius: 10px;
     background-color: white;
     color: black;
-    font-size: 28px;
+    font-size: 30px;
     cursor: pointer;
+    transition: all 3s;
 
-
+    
+}
+.btnEnviar button:hover{
+    background-color: rgba(0, 153, 255, 0.123);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 2px solid rgb(0, 153, 255);
+    transition-duration: 0s;
+    
 }
 
 /*                                          RODAPÉ                                           */
