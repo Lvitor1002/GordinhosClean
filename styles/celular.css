@@ -862,24 +862,16 @@
         font-size: 18px;
     }
     .formulario h1{
-        font-family: "Libre Baskerville", serif;
         width: 350px;
-        white-space: nowrap;
         font-size: 18px;
-        text-align: center;
-        color: #015961;
         padding: 0px;
         margin: 0;
         
         
     }
     .formulario h2{
-        font-family: "Libre Baskerville", serif;
         width: 300px;
         font-size: 16px;
-        text-align: center;
-        color: #027e8a;
-        padding: 10px 0;
         margin: 0;
         
         

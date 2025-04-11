@@ -734,6 +734,24 @@ li#ctt{
     
     
 }
+.formulario h1{
+    font-family: "Libre Baskerville", serif;
+    white-space: nowrap;
+    font-size: 32px;
+    text-align: center;
+    color: #015961b9;
+    
+    
+}
+.formulario h2{
+    font-family: "Libre Baskerville", serif;
+    font-size: 26px;
+    text-align: center;
+    color: #027f8aa6;
+    padding: 10px 0;
+    
+    
+}
 .formulario form{
     display: flex;
     justify-content: center;
@@ -758,7 +776,7 @@ li#ctt{
     color: black;
     outline: none; /* tira o contorno */
     position: relative;
-    bottom: 2%;
+    bottom: 0%;
     
 
 }
@@ -774,7 +792,7 @@ li#ctt{
     color: black;
     outline: none; /* tira o contorno */
     position: relative;
-    bottom: 5%;
+    bottom: 2%;
 
 }
 .btnEnviar{
