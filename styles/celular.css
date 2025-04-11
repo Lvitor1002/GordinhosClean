@@ -668,7 +668,8 @@
         width: 370px;
         text-align: center;
         height: 45vh;
-        font-size: 11px;
+        font-size: 18px;
+        line-height: 30px;
         
     }
     .primeiroBackground{
