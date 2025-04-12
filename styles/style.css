@@ -562,20 +562,35 @@ li#ctt{
     font-size: 90px;
     color: rgba(0, 0, 0, 0.664);
     padding: 10px 0px;
+    transition: all 10s;
     
+}
+.midiaConteudo i#instagram:hover{
+    color: rgb(255, 0, 85);
+    transition-duration: 0s;
 }
 .midiaConteudo i#facebook{
     position: relative;
     font-size: 90px;
     color: rgba(0, 0, 0, 0.664);
     padding: 10px 0px;
+    transition: all 10s;
     
+}
+.midiaConteudo i#facebook:hover{
+    color: rgb(0, 102, 255);
+    transition-duration: 0s;
 }
 .midiaConteudo i#youtube{
     position: relative;
     font-size: 90px;
     color: rgba(0, 0, 0, 0.664);
     padding: 10px 0px;
+    transition: all 10s;
+}
+.midiaConteudo i#youtube:hover{
+    color: red;
+    transition-duration: 0s;
 }
 
 
