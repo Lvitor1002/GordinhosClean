@@ -44,7 +44,7 @@ formulario.addEventListener("submit",function(evento){
     }
 
     if (formularioValido) {
-        fetch("https://formsubmit.co/ajax/luizpierino@hotmail.com", {
+        fetch("https://formsubmit.co/ajax/gordinhosclean@outlook.com", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
