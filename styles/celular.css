@@ -70,6 +70,15 @@
         left: 50px;
         
     }
+    .controle{
+        right: 150px;
+    }
+    .controle img{
+        height: 60vh;
+        width: 40vw;
+        top: 0px;
+        bottom: 50px;
+    }
 }
 @media screen and (max-width: 1240px){
     .barraAmarela{
@@ -89,9 +98,11 @@
     .texto{
         left: 90px;
     }
+    .controle{
+        left: 30px;
+    }
     .controle img{
-        height: 60vh;
-        width: 30vw;
+        width: 40vw;
         top: 40px;
     }
     
@@ -123,7 +134,6 @@
     }
     .controle img{
         height: 60vh;
-        width: 30vw;
         top: 40px;
     }
     
@@ -200,17 +210,19 @@
         font-size: 17px;
     }
 
-    .controle{
-        flex-direction: column;
-    }
     .texto{
         left: -80px;
-
+        
     }
     .linha{
         left: -250px;
-
+        
     }
+    .controle{
+        flex-direction: column;
+        left: -20px;
+    }
+    
     .controle .primeiroCampoTxt #pTexto{
         width: 80vw;
         bottom: 10px;
@@ -323,7 +335,11 @@
         left: 200px;
     }
     
-   
+    .controle img{
+        width: 70vw;
+        height: 80vh;
+        top: 40px;
+    }
     
 }
 @media screen and (max-width: 845px){
@@ -402,6 +418,9 @@
         left: -90px;
 
     }
+    .controle{
+        left: 0px;
+    }
     
     .controle .primeiroCampoTxt #pTexto{
         width: 80vw;
@@ -409,7 +428,7 @@
         left: -90px;
     }
     .controle img{
-        height: 90vh;
+        height: 60vh;
         width: 80%;
         top: 140px;
         left: 10px;
@@ -471,10 +490,7 @@
     .controle .primeiroCampoTxt #pTexto{
         left: -100px;
     }
-    .controle img{
-        height: 80vh;
-        width: 90%;
-    }
+    
 
 
 
