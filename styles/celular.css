@@ -692,7 +692,7 @@
     .controleRedes{
         left: 40px;
         gap: 60px;
-        bottom: 105px;
+        bottom: 100px;
         
     }
     .conteudo{
@@ -789,6 +789,7 @@
         font-size: 16px;
         text-align: center;
         padding: 10px 2px;
+        line-height: 39px;
     }
     .bloxTexto h2{
         font-size: 20px;
@@ -883,28 +884,32 @@
         align-items: center;
         width: 350px;
         padding: 10px;
-        gap: 10%;
+        gap: 4%;
         height: 550px;
-        
-        
         
     }
     .formulario form input{
         position: relative;
         bottom: 0%;
+        padding: 10px 10px;
         
     }
     .formulario form textarea{
-        padding-bottom: 250px;
+        padding-bottom: 255px;
+        bottom: 0;
         
     }
     .btnEnviar{
         position: relative;
         bottom: 20px;
+        
     }
     .btnEnviar button{
         font-size: 22px;
         color: rgba(0, 0, 0, 0.603);
+        position: relative;
+        top: 30px;
+
     }
     footer{
         position: relative;

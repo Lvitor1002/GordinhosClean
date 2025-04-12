@@ -44,33 +44,31 @@ formulario.addEventListener("submit",function(evento){
     }
 
     if (formularioValido) {
-        alert("Mensagem enviada com sucesso.")
-        formulario.submit(); // envia se tudo estiver certo
-    }
-
-    
-    fetch("https://formsubmit.co/ajax/luizpierino@hotmail.com",{
-        method: "POST",
-        headers:{
-            'Content-Type':'application/json',
-            'Accept':'application/json'
-        },
-        body: JSON.stringify({'Nome do cliente': formulario.nome.value,
-                              'Email do Cliente': formulario.email.value,
-                              'Mensagem do cliente': formulario.mensagem.value})
-    
-    })
+        fetch("https://formsubmit.co/ajax/luizpierino@hotmail.com", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+                'Nome do cliente': formulario.nome.value,
+                'Email do Cliente': formulario.email.value,
+                'Mensagem do cliente': formulario.mensagem.value
+            })
+        })
         .then(response => response.json())
-        .then(data=> {
-            if(data.success){
-                formularioValido = true
-            }else{
-                formularioValido = false
-                throw "Erro inesperado ao enviar formulário à API - " + data.message
+        .then(data => {
+            if (data.success) {
+                alert("Mensagem enviada com sucesso.");
+                formulario.reset(); // limpa o formulário
+            } else {
+                throw "Erro inesperado ao enviar formulário à API - " + data.message;
             }
         })
         .catch(error => {
-            alert(error)
-        })
+            alert(error);
+        });
+    }
+    
 })
 
