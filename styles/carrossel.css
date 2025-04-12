@@ -155,16 +155,10 @@
     .naveManual, .naveAuto{
         margin-top: 48%;
        
-        width: 70%;
+      
        
     }
-    .segundoCampoSobre{
-        width: 70%;
-    }
-    .sliderCampo img{
-        width: 1200px;
-        
-    }
+    
      
 }
 @media screen and (max-width: 1420px){

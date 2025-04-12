@@ -63,6 +63,10 @@
         left: 40px;
         
     }
+    .controleSobre .primeiroCampoSobre #pTextoSobre{
+        width: 80%;
+        
+    }
 }
 @media screen and (max-width: 1320px){
     .menu ul li{
@@ -291,6 +295,9 @@
         left: 230px;
         cursor: pointer;
         color: rgb(0, 153, 255);
+    }
+    .controleSobre .primeiroCampoSobre #pTextoSobre{
+        font-size: 16px;
     }
     
     
@@ -684,7 +691,7 @@
     .controleSobre .primeiroCampoSobre #pTextoSobre{
         width: 370px;
         text-align: center;
-        height: 45vh;
+        height: 42vh;
         font-size: 16px;
         line-height: 30px;
         
